@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#7b61ef",
+    "navigationBarTitleText": "不找零了+",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#e5e5e5"
+  },
+  "networkTimeout": {
+    "request": 20000
+  }
+}

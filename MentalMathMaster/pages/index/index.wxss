@@ -1,0 +1,110 @@
+/**index.wxss**/
+
+/* .container {
+
+} */
+
+/* 信息展示界面 & 挑战 & 分享 */
+.message-show {
+  position: relative;
+  margin-top: -90px;
+  width: 100%;
+  height: 640rpx;
+  background-color: #7b61ef;
+}
+
+.message-show .challenge {
+  position: absolute;
+  top: 80rpx;
+  width: 300rpx;
+  height: 50rpx;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.challenge .bg {
+  background-color: #fae45e;
+}
+
+
+/* 荣誉 & 毅力 & 礼物列表 */
+.rank-list {
+  width: 180rpx;
+  height: 420rpx;
+  background-color: #fae45e;
+}
+
+
+/* 底部导航栏布局 */
+.bottom-info{
+  text-align: center;
+  color: #ccc;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #fae45e;
+  padding: 18rpx 0;
+  justify-content: space-around;
+  z-index: 1000;
+}
+
+.bottom-info .link{
+  width: 50%;
+  color: #5d6979;
+  text-align: center;
+}
+
+.bottom-info .link text{
+  font-size: 30rpx;
+  display: block;
+  color: #6344ce;
+}
+
+.bottom-info .link i{
+  font-size: 42rpx;
+  color: #fff;
+}
+
+.bottom-info .link .icon{
+  display: inline-block;
+  /* border: 1rpx solid #5d6979; */
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+  line-height: 50rpx;
+  /* border-radius: 50%; */
+  margin-bottom: 5rpx;
+}
+
+.bottom-info .link .icon i{
+  border: none;
+}
+
+
+/* 源程序的布局代码  */
+
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */

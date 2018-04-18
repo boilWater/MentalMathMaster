@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <!-- 信息展示界面 & 挑战 & 分享 -->
+  <view class='message-show'>
+    
+    <!-- 显示挑战图片 & 文字 & 规则 -->
+    <view class='challenge icon'>
+      <view class='bg challenge'></view>
+
+      <view class='text challenge'>挑战成功赢娃娃</view>
+      
+    </view>
+  </view>
+
+  <!-- 荣誉 & 毅力 & 礼物列表 -->
+  <view class='rank-list'>
+  </view>
+  
+  <!-- 底部导航栏 -->
+  <view class="bottom-info" wx:if="{{true}}">
+    <view class="link" bindtap="gotoSquare" wx:if="{{!appInfo.hidePayFunc}}">
+      <view class="icon"><i class="iconfont1 icon-red-packet_icon"></i></view>
+      <text>红包广场</text>
+    </view>
+    <view class="link" bindtap="gotoRecordPage">
+      <view class="icon"><i class="iconfont1 icon-goumaijilu"></i></view>
+      <text>红包记录</text>
+    </view>
+  </view>
+
+</view>
+
+  <!-- 源程序的初始代码 -->
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
