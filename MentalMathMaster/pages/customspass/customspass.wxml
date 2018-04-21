@@ -1,0 +1,11 @@
+<!--pages/customspass/customspass.wxml-->
+
+<view class='bluetop'> blue 
+<text>pages/customspass/customspass.wxml</text>
+</view>
+
+<!-- <view class="container"> -->
+<view class='bluetop'>blue</view> 
+<!-- </view> -->
+
+

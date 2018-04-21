@@ -5,12 +5,34 @@
   <view class='message-show'>
     
     <!-- 显示挑战图片 & 文字 & 规则 -->
-    <view class='challenge icon'>
-      <view class='bg challenge'></view>
-
-      <view class='text challenge'>挑战成功赢娃娃</view>
-      
+    <view class='challenge'>
+      <image class='image' src="../resources/images/bg.png" mode='aspectFit'></image>   
+      <label class='winwawa'>挑战成功赢娃娃</label> 
     </view>
+     <view class='description1'>跑酷加减法</view>
+    <view class='description2'>判断力训练营</view>
+    <view class='personcounting'>当前共{{ totalperson }}次挑战</view>
+
+    <block wx:if='{{isAuditing === true}}'> 
+      <view class='startchallenge' bindtap='startChallenge'>
+        <text>开始测试</text>
+        <image src='../../resources/images/bg.png'></image>  
+      </view>
+     </block> 
+     <block wx:else> 
+      <view class='startchallenge' bindtap='startChallenge'>
+        <text>开始挑战</text>
+        <image src='../../resources/images/bg.png'></image> 
+      </view>
+    </block>
+
+    <view class='liveTogether'>
+      <view class='wechat'> 
+        <image src='../../resources/images/bg.png'></image>
+      </view>
+      <view class='yue'>约群朋友一起挑战</view>
+    </view>  
+
   </view>
 
   <!-- 荣誉 & 毅力 & 礼物列表 -->

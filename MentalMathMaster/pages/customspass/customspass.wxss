@@ -1,0 +1,12 @@
+/* pages/customspass/customspass.wxss */
+page{
+background-color:#fae45e;
+height:100%;
+}
+
+.bluetop {
+  background-color: #7b61ef; 
+  width: 100%;
+  height: 640rpx; 
+  padding-top: 0 0;
+} 

@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
 	"appid": "wx83d8b4919b436190",
-	"projectname": "%E5%BF%83%E7%AE%97%E5%A4%A7%E5%B8%881",
+	"projectname": "%E5%BF%83%E7%AE%97%E5%A4%A7%E5%B8%882",
 	"isGameTourist": false,
 	"condition": {
 		"search": {
@@ -21,13 +21,30 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
 		"miniprogram": {
-			"current": -1,
-			"list": []
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "pages/customspass/customspass",
+					"pathName": "pages/customspass/customspass",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/mycenter/mycenter",
+					"pathName": "pages/mycenter/mycenter",
+					"query": ""
+				}
+			]
 		}
 	}
 }

@@ -1,13 +1,15 @@
 /**index.wxss**/
 
-/* .container {
-
-} */
+ /* .container {
+   height: 100%;
+   width: 100%;
+}  */
 
 /* 信息展示界面 & 挑战 & 分享 */
+
 .message-show {
-  position: relative;
-  margin-top: -90px;
+  position: absolute;
+  top: 0rpx;
   width: 100%;
   height: 640rpx;
   background-color: #7b61ef;
@@ -15,18 +17,95 @@
 
 .message-show .challenge {
   position: absolute;
-  top: 80rpx;
-  width: 300rpx;
-  height: 50rpx;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-  background-color: #fff;
+  height: 100rpx;
+  width: 100%;
+  background-color: #fff;   
 }
 
-.challenge .bg {
-  background-color: #fae45e;
+.challenge .image {
+  position: absolute;
+  top: 0;
+  padding: 0 30rpx;
+}      
+
+ .message-show .winwawa {
+  position: absolute;
+  margin-top: 20rpx;
+  z-index: 4;
+} 
+
+ .description1 {
+  position: absolute;
+  top: 170rpx;
+  height: 130rpx;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  color: #fff;
+} 
+
+.description2 {
+  position: absolute;
+  top: 270rpx;
+  height: 130rpx;
+  left: 20%;
+  right: 20%;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: 900;
+  color: #fff;
 }
+
+.personcounting {
+  position: absolute;
+  top: 420rpx;
+  height: 60rpx;
+  left: 50%;
+  font-size: smaller;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.message-show .startchallenge {
+  position: absolute;
+  width: 70%;
+  height: 75rpx;
+  top: 490rpx;
+  left: 50%;
+  border-radius: 38rpx;
+  border-color: #fff;
+  border-width: 3rpx;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  color: #6344ce;
+  background-color: #fae45e; 
+}
+
+.message-show .liveTogether {
+  position: absolute;
+  top: 540rpx; 
+  width: 70%;
+  height: 75rpx;
+  border-radius: 38rpx;
+  text-align: center;
+  left: 15%;
+  color: #fff;
+  background-color: #ccc;
+}
+
+.liveTogether .wechat {
+  position: absolute;
+  width: 50rpx;
+  height: 50rpx;
+  left: (70%/2)
+}
+
+.liveTogether .yue {
+  position: absolute;
+  right: 20rpx;
+} 
 
 
 /* 荣誉 & 毅力 & 礼物列表 */

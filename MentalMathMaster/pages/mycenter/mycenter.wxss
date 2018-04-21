@@ -1,0 +1,146 @@
+/* pages/mycenter/mycenter.wxss */
+
+page{
+background-color:#fae45e;
+height:100%;
+}
+
+.bluetop {
+   /* top: 30rpx;  */
+  position: absolute;
+  background-color: #7b61ef; 
+  width: 100%;
+  height: 640rpx; 
+  top: 0rpx;
+}  
+
+.bluetop .headinfo {
+  position: relative; 
+  padding-top: 70rpx;  
+  border-radius: 50%;
+  width: 180rpx;
+  height: 180rpx;
+  top: 10%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  margin-bottom: -30rpx;
+  /* background-color: #fae45e; */
+}
+
+.headinfo image {
+  /* position: absolute; */
+  width: 180rpx;
+  height: 180rpx;
+  border-radius: 50%;
+  box-shadow: 6rpx 6rpx 50rpx rgba(255, 130, 84, 0.2);
+}
+
+.bluetop .receivegift {
+  width: 100%; 
+  text-align: center;
+  margin-bottom: 20rpx;
+  /* background-color: #fae45e;   */
+}
+
+.nameinfo {
+  font-size: small;
+  color: #fff;
+}
+
+.goreveivegift {
+  margin-left: 15rpx;
+  padding: 0rpx 15rpx;
+  font-size: x-small;
+  color: #fff;
+  border-radius: 20rpx;
+  background-color: #fae45e;
+}
+
+/* 领取说明  */
+.timedetailsinfo {
+  /* position: relative; */
+  width: 100%;
+  height: 60rpx;
+  margin-bottom: 50rpx;
+  /* background-color: #fae45e; */
+}
+
+.timedetailsinfo .chancetext {
+  padding-left: 120rpx;
+  font-size: x-small;
+  /* background-color: #7b61ef; */
+}
+
+.finishtext {
+  padding-left: 120rpx; 
+  font-size: x-small;
+  /* background-color: #7b61ef;  */
+}
+
+.scorehigh {
+  padding-left: 120rpx;
+  font-size: x-small;
+  /* background-color: #7b61ef; */
+}
+
+/* 分享 & 获取挑战机会  */
+
+/* .chancetap {
+  /* position: absolute;  */
+  /* width: 100%;
+  height: 70rpx;
+  background-color: #fff; 
+} */ 
+
+.share {
+  position: absolute;  
+  width: 260rpx;
+  height: 70rpx;
+  margin-left: 80rpx;
+  border-radius: 35rpx;
+  background-color: #fae45e;
+}
+
+.share .shareiconfont {
+  margin-right: 40rpx;
+}
+
+.share .sharetext {
+  text-align: center;
+  font-size: small;
+  color: #fff;
+  margin-left: 30rpx;
+}
+
+.getchance {
+  position: absolute; 
+  width: 260rpx;
+  height: 70rpx;
+  right: 80rpx;
+  border-radius: 35rpx;
+  background-color: #fae45e;
+} 
+
+.getchance .getchanceiconfont {
+  margin-right:30rpx;
+}
+
+.getchance .getchancetext {
+  text-align: center;
+  font-size: small;
+  color: #fff;
+}
+
+/* yellow bottom  */
+
+.contactcustomer {
+  position: absolute;
+  top: 700rpx; 
+  left: 50rpx;
+  right: 50rpx;
+  text-align: center;
+  font-size: smaller;
+  padding: 15rpx 0;
+  border-radius: 50rpx;
+  background-color: #fff;
+}

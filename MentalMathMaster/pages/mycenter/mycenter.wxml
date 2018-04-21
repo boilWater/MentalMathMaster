@@ -1,0 +1,42 @@
+<!-- 个人中心  -->
+
+<view class='container'>
+
+  <view class='bluetop'>
+
+    <view class='headinfo'>
+      <image src = '../resources/images/bg.png'></image>
+    </view>
+
+    <view class='receivegift'>
+      <text class='nameinfo mintext'>{{nameinfo}},可领取娃娃{{numberinfo}}个</text>
+      <text class='goreveivegift'>去领奖</text>
+    </view>
+
+    <view class='timeinfo flex vertical'>
+      <text class='nameinfo'>{{nameinfo}},可领取娃娃{{numberinfo}}个</text>
+      <text class='goreveivegift'>去领奖</text>
+    </view>
+
+    <view class='timedetailsinfo flex vertical'>
+
+      <label class='chancetext mintext'>挑战机会</label>
+      <label class='finishtext mintext'>已挑战</label>
+      <label class='scorehigh mintext'>最高分</label> 
+
+    </view>
+
+    <view class='share' bindtap='shareTap'>
+      <text class='shareiconfont icon-paimingbiaoqian notes-color'></text>
+      <text class='sharetext'>炫耀战绩</text>
+    </view>
+    <view class='getchance' bindtap='getchanceTap'>
+      <text class='getchanceiconfont icon-paimingbiaoqian notes-color'></text>
+      <text class='getchancetext'>获得挑战机会</text>
+    </view>
+    
+  </view>
+
+  <view class='contactcustomer'>客服微信：12345678</view>
+
+</view>
