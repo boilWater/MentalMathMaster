@@ -1,11 +1,61 @@
 <!--index.wxml-->
 <view class="container">
+
+  <view class='bluetop'>
+   
+    <view class='challenge'>
+      <image src='../resources/images/bg.png'></image>
+    </view>
+
+    <view class='challengetext flex vertical'>
+      <text class='wintext'>挑战成功赢娃娃</text>
+      <text class="iconfont icon-i-info" bindtap='ruleTap'>\e61a</text> 
+    </view>
+
+    <view class='slogan'>
+      <view>跑酷加减法</view>
+      <view>判断力训练营</view>
+    </view>
+
+    <view class='total'>当前共{{total}}次挑战</view>
+
+    <view class='startchallenge' bindtap='startTap'>开始挑战</view>
+
+    <view class='invitefriends' bindtap='inviteTap'>邀请好友一起约战</view>
+    
+  </view>
+
+  <view class='yellowbottom'>
+
+    <view class='ranklist flex vertical'>
+      <view class='honour' bindtap='honourTap'>荣誉榜</view>
+      <view class='perseverance' bindtap='perseveranceTap'>毅力榜</view>
+      <view class='prize' bindtap='prizeTap'>娃娃奖品</view>
+    </view>
+
+
+  </view>
+   
+
+  <!-- bottom 选项框  -->
+  <view class="bottom-info" wx:if="{{true}}">
+    <view class="link" bindtap="startTap" wx:if="{{!appInfo.hidePayFunc}}">
+      <view class="icon"><i class="iconfont1 icon-red-packet_icon"></i></view>
+      <text>我要挑战</text>
+    </view>
+    <view class="link" bindtap="goYyCenter">
+      <view class="icon"><i class="iconfont1 icon-goumaijilu"></i></view>
+      <text>个人中心</text>
+    </view>
+  </view>
+
+</view>
   
   <!-- 信息展示界面 & 挑战 & 分享 -->
-  <view class='message-show'>
+  <!-- <view class='message-show'> -->
     
     <!-- 显示挑战图片 & 文字 & 规则 -->
-    <view class='challenge'>
+    <!-- <view class='challenge'>
       <image class='image' src="../resources/images/bg.png" mode='aspectFit'></image>   
       <label class='winwawa'>挑战成功赢娃娃</label> 
     </view>
@@ -24,23 +74,23 @@
         <text>开始挑战</text>
         <image src='../../resources/images/bg.png'></image> 
       </view>
-    </block>
+    </block> -->
 
-    <view class='liveTogether'>
+    <!-- <view class='liveTogether'>
       <view class='wechat'> 
         <image src='../../resources/images/bg.png'></image>
       </view>
       <view class='yue'>约群朋友一起挑战</view>
     </view>  
 
-  </view>
+  </view> -->
 
   <!-- 荣誉 & 毅力 & 礼物列表 -->
-  <view class='rank-list'>
-  </view>
+  <!-- <view class='rank-list'>
+  </view> -->
   
   <!-- 底部导航栏 -->
-  <view class="bottom-info" wx:if="{{true}}">
+  <!-- <view class="bottom-info" wx:if="{{true}}">
     <view class="link" bindtap="gotoSquare" wx:if="{{!appInfo.hidePayFunc}}">
       <view class="icon"><i class="iconfont1 icon-red-packet_icon"></i></view>
       <text>红包广场</text>
@@ -51,7 +101,7 @@
     </view>
   </view>
 
-</view>
+</view> -->
 
   <!-- 源程序的初始代码 -->
   <!-- <view class="userinfo">

@@ -3,7 +3,9 @@
     "pages/index/index",
     "pages/logs/logs",
     "pages/customspass/customspass",
-    "pages/mycenter/mycenter"
+    "pages/mycenter/mycenter",
+    "pages/task/task",
+    "pages/report/report"
   ],
   "window": {
     "backgroundTextStyle": "light",

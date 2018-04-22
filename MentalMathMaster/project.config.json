@@ -30,18 +30,36 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 1,
+			"current": 4,
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/customspass/customspass",
+					"name": "customspass",
 					"pathName": "pages/customspass/customspass",
 					"query": ""
 				},
 				{
-					"id": -1,
-					"name": "pages/mycenter/mycenter",
+					"id": 1,
+					"name": "mycenter",
 					"pathName": "pages/mycenter/mycenter",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "task",
+					"pathName": "pages/task/task",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "report",
+					"pathName": "pages/report/report",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "index",
+					"pathName": "pages/index/index",
 					"query": ""
 				}
 			]

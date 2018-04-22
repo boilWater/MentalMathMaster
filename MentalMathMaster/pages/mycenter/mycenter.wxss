@@ -10,7 +10,7 @@ height:100%;
   position: absolute;
   background-color: #7b61ef; 
   width: 100%;
-  height: 640rpx; 
+  height: 580rpx; 
   top: 0rpx;
 }  
 
@@ -56,32 +56,235 @@ height:100%;
   background-color: #fae45e;
 }
 
-/* 领取说明  */
-.timedetailsinfo {
-  /* position: relative; */
-  width: 100%;
-  height: 60rpx;
-  margin-bottom: 50rpx;
+/* 领取的次数  */
+
+.timesinfo {
+  margin-top: 50rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  margin-bottom: 60rpx;
+}
+
+.chance {
+  width: 33.3%;
+  text-align: center;
   /* background-color: #fae45e; */
 }
 
-.timedetailsinfo .chancetext {
-  padding-left: 120rpx;
-  font-size: x-small;
-  /* background-color: #7b61ef; */
+.chancenumber {
+  font-size: x-large;
+  color: #fff;
+}
+
+.chancetext {
+  font-size: xx-small;
+  color: #fff;
+}
+
+.finish {
+  width: 33.3%;
+  text-align: center;
+  /* background-color: #fae45e; */
+}
+
+.finishnumber {
+  padding-left: 20rpx;
+  font-size: x-large;
+  color: #fff;
 }
 
 .finishtext {
-  padding-left: 120rpx; 
-  font-size: x-small;
-  /* background-color: #7b61ef;  */
+   font-size: xx-small;
+   color: #fff;
 }
 
 .scorehigh {
-  padding-left: 120rpx;
-  font-size: x-small;
-  /* background-color: #7b61ef; */
+  width: 33.3%;
+  text-align: center;
+  /* background-color: #fae45e; */
 }
+
+.scorehighnumber {
+  padding-left: 20rpx;
+  font-size: x-large;
+  color: #fff;
+}
+
+.scorehightext {
+  font-size: xx-small;
+  color: #fff;
+}
+
+/* share & .getchance  */
+
+.sharegetchance {
+  height: 50rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+
+.share {
+  /* position: absolute;   */
+  width: 260rpx;
+  height: 60rpx;
+  margin-left: 80rpx;
+  margin-right: 40rpx;
+  border-radius: 35rpx;
+  background-color: #fae45e;
+}
+
+.share image {
+  width: 40rpx;
+  height: 40rpx;
+  padding-left: 40rpx;
+  padding-right: 15rpx;
+}
+
+.share text {
+  font-size: xx-small;
+}
+
+.getchance {
+  /* position: absolute;  */
+  width: 260rpx;
+  height: 60rpx;
+  right: 80rpx;
+  margin-right: 80rpx;
+  border-radius: 35rpx;
+  background-color: #fae45e;
+}
+
+.getchance image {
+  width: 40rpx;
+  height: 40rpx;
+  padding-left: 20rpx;
+  padding-right: 10rpx;
+}
+
+.getchance text {
+  font-size: xx-small;
+}
+
+/* yellow bottom  */
+
+.yellobottom {
+  position: absolute;
+  top: 580rpx;
+  width: 100%;
+  height: 500rpx;
+  /* background-color: #fff; */
+}
+
+.contactcustomer {
+  margin: 40rpx;
+  height: 70rpx; 
+  border-radius: 50rpx;
+  background-color: #128b03;
+}
+
+.contactcustomer image {
+  width: 45rpx;
+  height: 45rpx;
+  padding-left: 150rpx;
+  padding-top: 15rpx;
+  padding-bottom: 15rpx;
+  padding-right: 20rpx;
+}
+
+.contactcustomer text {
+  font-size: smaller;
+  padding: 15rpx 0;
+  color: #fff;
+}
+
+/* 更多游戏  */
+
+.moregames {
+  margin: 10rpx 20rpx;
+  height: 120rpx;
+  border-radius: 20rpx;
+  border-width: 1rpx;
+  border-color: #f1f1f1;
+  border-style: solid;
+}
+
+.moregames .gamehead image{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  margin-left: 25rpx;
+}
+
+.gamedetail {
+  padding: 10rpx 25rpx;
+}
+
+.gamedetail .title {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.gamedetail .detail{
+  font-size: xx-small;
+  color: #ccc;
+}
+
+.gochallenge {
+  font-size: xx-small;
+  padding: 10rpx 20rpx;
+  margin-left: 40rpx;
+  background-color: #fd8609;
+  border-radius: 30rpx;
+}
+
+.rule {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 50rpx;
+  color: #fff;
+  border-top-left-radius: 25rpx;
+  border-bottom-left-radius: 25rpx;
+  /* line-height: 是行高的意思，决定当前一行的高度。  */
+  /* height: 是当前元素的高度  */
+  line-height: 48rpx;
+  /* 设置内边距  */
+  padding: 0 20rpx;
+  position: absolute;
+  top: 30rpx;
+  right: 0rpx;
+  z-index: 6;
+}
+
+.rule .iconfont {
+   /* 设置外边距 right 侧内容，距离是 10 rpx */
+    margin-right: 10rpx;
+}
+
+/* 领取说明  */
+/* .timedetailsinfo { */
+  /* position: relative; */
+  /* width: 100%;
+  height: 60rpx;
+  margin-bottom: 50rpx; */
+  /* background-color: #fae45e; */
+/* } */
+
+/* .timedetailsinfo .chancetext {
+  padding-left: 120rpx;
+  font-size: x-small; */
+  /* background-color: #7b61ef; */
+/* } */
+
+/* .finishtext { */
+  /* padding-left: 120rpx; 
+  font-size: x-small; */
+  /* background-color: #7b61ef;  */
+/* } */
+
+/* .scorehigh {
+  padding-left: 120rpx;
+  font-size: x-small; */
+  /* background-color: #7b61ef; */
+/* } */
 
 /* 分享 & 获取挑战机会  */
 
@@ -92,15 +295,7 @@ height:100%;
   background-color: #fff; 
 } */ 
 
-.share {
-  position: absolute;  
-  width: 260rpx;
-  height: 70rpx;
-  margin-left: 80rpx;
-  border-radius: 35rpx;
-  background-color: #fae45e;
-}
-
+/*
 .share .shareiconfont {
   margin-right: 40rpx;
 }
@@ -110,17 +305,9 @@ height:100%;
   font-size: small;
   color: #fff;
   margin-left: 30rpx;
-}
+} */
 
-.getchance {
-  position: absolute; 
-  width: 260rpx;
-  height: 70rpx;
-  right: 80rpx;
-  border-radius: 35rpx;
-  background-color: #fae45e;
-} 
-
+/*
 .getchance .getchanceiconfont {
   margin-right:30rpx;
 }
@@ -129,18 +316,5 @@ height:100%;
   text-align: center;
   font-size: small;
   color: #fff;
-}
+} */
 
-/* yellow bottom  */
-
-.contactcustomer {
-  position: absolute;
-  top: 700rpx; 
-  left: 50rpx;
-  right: 50rpx;
-  text-align: center;
-  font-size: smaller;
-  padding: 15rpx 0;
-  border-radius: 50rpx;
-  background-color: #fff;
-}

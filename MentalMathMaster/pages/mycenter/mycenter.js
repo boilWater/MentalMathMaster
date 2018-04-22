@@ -61,6 +61,34 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
+    
+  },
+  /** 
+  * 炫耀成绩
+  */
+  shareTap: function(e) {
+    
+  },
+  /** 
+  * 获取挑战机会
+  */
+  getchanceTap: function(e) {
+
+  },
+  /** 
+  * 客服微信
+  */
+  contactcustomerTap: function(e) {
+
+  },
+  /** 
+  * 去挑战
+  */
+  gochallengeTap: function(e) {
+
+  },
+  ruleTap: function(e) {
+
+  } 
   
-  }
 })

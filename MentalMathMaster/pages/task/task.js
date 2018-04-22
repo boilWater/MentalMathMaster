@@ -1,4 +1,4 @@
-// pages/customspass/customspass.js
+// pages/task/task.js
 Page({
 
   /**
@@ -62,11 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
   
-  },
-  correctTap() {
-    console.log("正确！！！");
-  },
-  wrongTap () {
-    console.log("错误！！！");
   }
 })

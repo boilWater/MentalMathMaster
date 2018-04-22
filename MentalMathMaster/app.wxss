@@ -8,3 +8,123 @@
   padding: 200rpx 0;
   box-sizing: border-box;
 } 
+
+/**app.wxss**/
+.flex{ display: flex; flex-wrap: wrap; }
+.f1{ flex: 1; }
+.f2{ flex: 2; }
+.f3{ flex: 3; }
+/* 垂直居中 */
+ .vertical{ align-items: center; } 
+/* 水平居中 */
+.center{ justify-content: center; }
+/* 右对齐 */
+.flex-right{ flex-direction: row; justify-content: flex-end; }
+/* 标题字体大小 */
+.title{ font-size: 34rpx; }
+/* 标准字体 */
+.standard{ font-size: 30rpx; }
+/* 标签,注释字体 */
+.label{ font-size: 28rpx; }
+/* 最小字体 */
+.mintext{ font-size: 24rpx; color: #fff}
+/* 主题颜色 */
+.theme-color{ color: #fae45e }
+/* 加重颜色 */
+.weight-color{ color: #fe555a }
+/* 注释颜色 */
+.notes-color{ color: #666; }
+/* 单行超出... */
+.ellipsis{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* 点击状态 */
+.active:active{ opacity: 0.8 }
+/* 底部服务文字 */
+.bottom-text{ color: #3e70e0; }
+.bottom-text .f1:nth-child(1){ text-align: right; margin-right: 30rpx; }
+/* 页面统一设置 */
+.page{ width: 100%; min-height: 100vh; box-sizing: border-box; padding: 30rpx; background-color: #7b61ef}
+/* 背景渐变 */
+.bg{ background: -webkit-linear-gradient(to top, #7b61ef, #7b31af); background: linear-gradient(to top, #7b61ef, #7b31af); }
+/* 边框 */
+.border{ border: solid 1px #ffeae2; }
+/* 弹出层 */
+.layer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 99;
+}
+
+.layer .layer-content{
+  width: 80%;
+  padding: 40rpx 30rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 20rpx;
+}
+
+/* @import "./static/iconfont.wxss"; */
+page{ font-family: Arial, Helvetica, sans-serif; }
+input{ font-family: Arial, Helvetica, sans-serif; }
+
+.default-placeholder{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ccc;
+  font-size: 34rpx;
+}
+
+.report-btn{
+  font-size: 29rpx;
+  text-align: center;
+  line-height: 80rpx;
+  margin-top: 15rpx;
+  color:#5d6979;
+}
+
+
+.end-row{
+  text-align: center;
+  padding-top: 20rpx;
+  padding-bottom: 60rpx;
+}
+
+.end-row i{
+  font-size: 45rpx;
+  color: #fcb982;
+}
+
+@keyframes loadingKF
+{
+  0% {transform: rotate(0deg)}
+  100% {transform: rotate(360deg)}
+}
+
+.loading-row{
+  text-align: center;
+  padding-top: 20rpx;
+  padding-bottom: 60rpx;
+}
+
+.loading-row view{
+  animation-name: loadingKF;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  display: inline-block;
+  width: 50rpx;
+  height: 50rpx;
+  text-align: center;
+}
+
+.loading-row i{
+  font-size: 45rpx;
+  line-height: 50rpx;
+  color: #fcb982;
+}

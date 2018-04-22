@@ -1,0 +1,49 @@
+/* pages/task/task.wxss */
+
+.page{
+    position: relative;
+    background-color: #666;
+}
+
+.task-item{
+    background-color: #fff;
+    border-radius: 10rpx;
+    margin-bottom: 30rpx;
+    padding: 30rpx 40rpx;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.item-title{
+  color: #fae45e;
+  margin-bottom: 10rpx;
+}
+
+.item-btn{
+    border: solid 1px #fae45e;
+    line-height: 60rpx;
+    border-radius: 35rpx;
+    padding: 0 30rpx;
+    margin-left: 30rpx;
+}
+
+.f1 {
+  color: #fae45e;
+}
+
+/* 弹出层 */
+.layer-content{
+    position: relative;
+}
+.layer-content icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -50%);
+    background-color: #fff;
+    border-radius: 50%;
+}
+.layer-content .layer-title{
+    text-align: center;
+    margin-bottom: 30rpx;
+}

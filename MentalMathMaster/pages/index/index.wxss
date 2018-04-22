@@ -1,13 +1,122 @@
-/**index.wxss**/
-
- /* .container {
-   height: 100%;
-   width: 100%;
-}  */
+/**index.wxss**/ 
 
 /* 信息展示界面 & 挑战 & 分享 */
 
-.message-show {
+.bluetop {
+  position: absolute; 
+  top: 0rpx;
+  width: 100%;
+  height: 640rpx;
+  background-color: #7b61ef;
+}
+
+.challenge {
+  width: 100%;
+  height: 180rpx;
+  margin-top: 10rpx;
+  text-align: center; 
+  /* background-color: #fae45e; */
+}
+
+.challenge image {
+  width: 560rpx;
+  height: 140rpx;
+}
+
+.challengetext {
+  position: absolute;
+  width: 100%;
+  top: 65rpx;
+  left: 220rpx;   
+}
+
+.challengetext .wintext {
+  font-size: smaller;
+  color: #fae45e;
+}
+
+.slogan {
+  text-align: center;
+  font-size: x-large;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 30rpx;
+}
+
+.total {
+  text-align: center;
+  font-size: small;
+  color: #fff;
+  margin-bottom: 25rpx;
+}
+
+.startchallenge {
+  text-align: center;
+  padding: 6rpx;
+  margin-left: 150rpx;
+  margin-right: 150rpx;
+  border-radius: 45rpx;
+  background-color: #fae45e;
+  margin-bottom: 25rpx;
+  border-width: 14rpx;
+  border-color: #fff;
+  border-style: solid;
+  /* transform: translate(50%, 50%); */
+}
+
+.invitefriends {
+  text-align: center;
+  padding: 13rpx;
+  margin-left: 150rpx;
+  margin-right: 150rpx;
+  border-radius: 38rpx;
+  background-color: #fae45e;
+}
+
+
+/* yellowbottom 内容部分 */
+
+.yellowbottom {
+  position: absolute; 
+  top: 640rpx;  
+  width: 100%;
+  height: 900rpx;
+  background-color: #fae45e;
+}
+
+.ranklist {
+  margin: 25rpx 25rpx 15rpx 25rpx;
+  background-color: #ccc;
+}
+
+.honour {
+  width: 32%;
+  text-align: center;
+  background-color: #5d6979;
+  border-color: #fe12ea;
+  border-width: 1rpx;
+  border-style: solid;
+}
+
+.perseverance {
+  width: 34%;
+  text-align: center;
+  background-color: #fff;
+  border-color: #fe12ea;
+  border-width: 1rpx;
+  border-style: solid;
+}
+
+.prize {
+  width: 32%;
+  text-align: center;
+  background-color: #7b61ef;
+  border-color: #fe12ea;
+  border-width: 1rpx;
+  border-style: solid;
+}
+
+/* .message-show {
   position: absolute;
   top: 0rpx;
   width: 100%;
@@ -105,15 +214,15 @@
 .liveTogether .yue {
   position: absolute;
   right: 20rpx;
-} 
+}  */
 
 
 /* 荣誉 & 毅力 & 礼物列表 */
-.rank-list {
+/* .rank-list {
   width: 180rpx;
   height: 420rpx;
   background-color: #fae45e;
-}
+} */
 
 
 /* 底部导航栏布局 */
@@ -130,6 +239,8 @@
   padding: 18rpx 0;
   justify-content: space-around;
   z-index: 1000;
+  border-top-color: #5d6979;
+  border-top-width: 2rpx;
 }
 
 .bottom-info .link{
@@ -164,26 +275,3 @@
   border: none;
 }
 
-
-/* 源程序的布局代码  */
-
-/* .userinfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
-  margin: 20rpx;
-  border-radius: 50%;
-}
-
-.userinfo-nickname {
-  color: #aaa;
-}
-
-.usermotto {
-  margin-top: 200px;
-} */

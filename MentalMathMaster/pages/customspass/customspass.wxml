@@ -1,11 +1,34 @@
 <!--pages/customspass/customspass.wxml-->
+<!-- 关卡 -->
 
-<view class='bluetop'> blue 
-<text>pages/customspass/customspass.wxml</text>
+<view class='container'>
+  
+  <view class='bluetop'>
+
+    <view class='detailtext'>连续答对50题即挑战成功</view>
+
+    <progress class='percent' percent='40' show-info=''></progress>
+
+    <view class='pass'>第{{indexpass}}题</view>
+
+    <!-- {{}} + {{}} = {{}} -->
+    <view class='currentpass'>
+      <view> 8 + 7</view>
+      <view> = 15</view>
+    </view>
+
+  </view>
+
+  <view class='yellowbottom flex vertical' >
+     <view class='correct' bindtap='correctTap'>
+       <image src='../resources/images/bg.png' mode='scaleToFill'></image>  
+    </view>
+
+    <view class='wrong' bindtap='wrongTap'>
+      <image src='../resources/images/bg.png' mode='scaleToFill'></image>  
+    </view> 
+  </view>
+
 </view>
-
-<!-- <view class="container"> -->
-<view class='bluetop'>blue</view> 
-<!-- </view> -->
 
 

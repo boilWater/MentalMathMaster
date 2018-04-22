@@ -50,5 +50,41 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
+  },
+  startTap: function(e) {
+    //开始挑战
+    wx.navigateTo({
+      url: '../customspass/customspass',
+    })
+  },
+  inviteTap: function(e) {
+    //邀请好友
+    wx.navigateTo({
+      url: '',
+    })
+  },
+  honourTap: function(e) {
+    //荣誉榜
+    wx.navigateTo({
+      url: '',
+    })
+  },
+  perseveranceTap: function(e) {
+    //毅力榜
+    wx.navigateTo({
+      url: '',
+    })
+  },
+  prizeTap: function(e) {
+    //挖完奖品
+    wx.navigateTo({
+      url: '',
+    })
+  },
+  goYyCenter: function(e) {
+    //个人中心
+    wx.navigateTo({
+      url: '../mycenter/mycenter',
+    })
   }
 })

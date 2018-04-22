@@ -13,7 +13,43 @@
       <text class='goreveivegift'>去领奖</text>
     </view>
 
-    <view class='timeinfo flex vertical'>
+    <view class='timesinfo flex vertical'>
+
+      <view class='chance'>
+        <text class='chancenumber'>22</text>
+        <text class='mintext'> 次 </text>
+        <view class='chancetext'>挑战机会</view>
+      </view>
+
+      <view class='finish'>
+        <text class='finishnumber'>22</text>
+        <text class='mintext'> 次 </text>
+        <view class='finishtext'>以挑战</view>
+      </view>
+
+      <view class='scorehigh'>
+        <text class='scorehighnumber'>22</text>
+        <text class='mintext'> 次 </text>
+        <view class='scorehightext'>最高分</view>
+      </view>
+
+    </view>
+
+    <view class='sharegetchance flex vertical'>
+      
+      <view class='share flex vertical' bindtap='shareTap'>
+        <image src='../resources/images/bg.png'></image>
+        <text> 炫耀战绩</text>
+      </view>
+
+      <view class='getchance flex vertical' bindtap='getchanceTap'>
+        <image src='../resources/images/bg.png'></image>
+        <text>获得挑战机会</text>
+      </view>
+
+    </view>
+
+    <!-- <view class='timeinfo flex vertical'>
       <text class='nameinfo'>{{nameinfo}},可领取娃娃{{numberinfo}}个</text>
       <text class='goreveivegift'>去领奖</text>
     </view>
@@ -24,19 +60,59 @@
       <label class='finishtext mintext'>已挑战</label>
       <label class='scorehigh mintext'>最高分</label> 
 
-    </view>
+    </view> -->
 
-    <view class='share' bindtap='shareTap'>
+    <!-- <view class='share' bindtap='shareTap'>
       <text class='shareiconfont icon-paimingbiaoqian notes-color'></text>
       <text class='sharetext'>炫耀战绩</text>
     </view>
     <view class='getchance' bindtap='getchanceTap'>
       <text class='getchanceiconfont icon-paimingbiaoqian notes-color'></text>
       <text class='getchancetext'>获得挑战机会</text>
-    </view>
+    </view> -->
     
   </view>
 
-  <view class='contactcustomer'>客服微信：12345678</view>
+  <view class='yellobottom'>
+  
+    <view class='contactcustomer flex vertical' bindtap='contactcustomerTap'>
+      <image src='../resources/images/bg.png'></image>
+      <text>客服微信：12345678</text>
+    </view>
 
+    <view class='moregames flex vertical'>
+      <view class='gamehead'> 
+        <image src='../resources/images/bg.png'></image>
+      </view>
+
+      <view class='gamedetail'>
+        <view class='title'> 小猪变色 </view>
+        <view class='detail'>  每日挑战拿奖金，色盲克星  </view>
+      </view>
+
+      <view class='gochallenge' bindtap='gochallengeTap'>去挑战</view>
+    </view>
+
+    <view class='moregames flex vertical'>
+      <view class='gamehead'> 
+        <image src='../resources/images/bg.png'></image>
+      </view>
+
+      <view class='gamedetail'>
+        <view class='title'> 小猪变色 </view>
+        <view class='detail'>  每日挑战拿奖金，色盲克星  </view>
+      </view>
+
+      <view class='gochallenge'>去挑战</view>
+      
+    </view>
+  
+  </view>
+
+</view>
+
+<!-- 规则  -->
+<view class='rule flex vertical' bindtap='ruleTap'>
+  <text class="iconfont icon-i-info"></text>
+  <text class='label'>挑战规则</text>
 </view>
