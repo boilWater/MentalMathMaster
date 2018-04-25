@@ -5,7 +5,8 @@
     "pages/customspass/customspass",
     "pages/mycenter/mycenter",
     "pages/task/task",
-    "pages/report/report"
+    "pages/report/report",
+    "pages/giftlist/giftlist"
   ],
   "window": {
     "backgroundTextStyle": "light",

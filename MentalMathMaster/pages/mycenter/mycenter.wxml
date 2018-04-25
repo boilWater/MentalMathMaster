@@ -9,8 +9,8 @@
     </view>
 
     <view class='receivegift'>
-      <text class='nameinfo mintext'>{{nameinfo}},可领取娃娃{{numberinfo}}个</text>
-      <text class='goreveivegift'>去领奖</text>
+      <text class='nameinfo mintext'>{{nameinfo}},可领取娃娃 {{numberinfo}} 个</text>
+      <text class='goreveivegift' bindtap='goGiftTap'>去领奖</text>
     </view>
 
     <view class='timesinfo flex vertical'>

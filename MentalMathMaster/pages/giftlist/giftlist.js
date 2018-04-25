@@ -1,12 +1,20 @@
-// pages/mycenter/mycenter.js
+// pages/giftlist/giftlist.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    nameinfo:'Jack Bai',
-    numberinfo:'15'
+    items:[
+      { name: '你好a-0', url:'../resources/images/u579.png' },
+      { name: 'aaa-1', url:'../resources/images/u579.png' },
+      { name: 'aaa-2', url: '../resources/images/u579.png'},
+      { name: 'aaa-3', url: '../resources/images/u579.png'},
+      { name: 'aaa-4', url: '../resources/images/u579.png'},
+      { name: 'aaa-5', url: '../resources/images/u579.png'},
+      { name: 'aaa-6', url: '../resources/images/u579.png'},
+      { name: 'aaa-7', url: '../resources/images/u579.png'}
+    ]
   },
 
   /**
@@ -62,42 +70,6 @@ Page({
    * 用户点击右上角分享
    */
   onShareAppMessage: function () {
-    
-  },
-  /** 
-  * 炫耀成绩
-  */
-  shareTap: function(e) {
-    
-  },
-  /** 
-  * 获取挑战机会
-  */
-  getchanceTap: function(e) {
-
-  },
-  /** 
-  * 客服微信
-  */
-  contactcustomerTap: function(e) {
-
-  },
-  /** 
-  * 去挑战
-  */
-  gochallengeTap: function(e) {
-
-  },
-  ruleTap: function(e) {
-
-  },
-  goGiftTap: function(e) {
-    wx:wx.navigateTo({
-      url: '../giftlist/giftlist',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-  }
   
+  }
 })

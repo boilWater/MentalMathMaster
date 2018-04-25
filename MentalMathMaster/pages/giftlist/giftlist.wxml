@@ -1,0 +1,33 @@
+<!--pages/giftlist/giftlist.wxml-->
+
+<view class='listcontinor'>
+
+  <view class='choosebar flex vertical'>
+
+    <text class='glist'>aaa</text>
+
+    <text class='record'>bbb</text>
+
+  </view>
+
+  <!-- 礼物列表  -->
+  <block wx:for-items="{{items}}">
+
+    <view class='item flex'>
+
+      <view class='picture'>
+        <image src='{{item.url}}'></image>
+      </view>
+
+      <view class='bottom flex vertical'>
+
+        <text class='name'>{{item.name}}</text>
+        <view class='receive'>领取</view>
+
+      </view>
+      
+    </view>
+
+  </block>
+
+</view>
