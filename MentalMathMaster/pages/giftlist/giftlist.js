@@ -1,6 +1,8 @@
 // pages/giftlist/giftlist.js
-Page({
+// var selectEnable;
 
+Page({
+  
   /**
    * 页面的初始数据
    */
@@ -14,7 +16,10 @@ Page({
       { name: 'aaa-5', url: '../resources/images/u579.png'},
       { name: 'aaa-6', url: '../resources/images/u579.png'},
       { name: 'aaa-7', url: '../resources/images/u579.png'}
-    ]
+    ],
+    glistcolor: 'selectcolor',
+    recordcolor: 'unselectcolor',
+    msgPrompt: false,
   },
 
   /**
@@ -71,5 +76,41 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+  /**
+   * 点击礼物的列表
+   */
+  glistTap: function(e) {
+    // if (!this.data.msgPrompt) {
+    //   console.log('select is false');
+    //   this.setData({
+    //     msgPrompt: !this.data.msgPrompt,
+    //     glistcolor: 'selectcolor',
+    //     recordcolor: 'unselectcolor'
+    //   })
+    // } 
+    if (this.data.msgPrompt) {
+     console.log('select is true');
+      this.setData({
+        msgPrompt: !this.data.msgPrompt,
+        glistcolor: 'selectcolor',
+        recordcolor: 'unselectcolor'
+      })
+    }
+  },
+  /**
+   * 领取记录
+   */
+  recordTap: function(e) {
+    // console.log("here-0");
+    if (!this.data.msgPrompt) {
+      console.log('here-1');
+      this.setData({
+        msgPrompt: !this.data.msgPrompt,
+        glistcolor : 'unselectcolor',
+        recordcolor : 'selectcolor'
+      })
+    }
+
   }
 })

@@ -1,18 +1,18 @@
 <!--pages/giftlist/giftlist.wxml-->
 
-<view class='listcontinor'>
+<scroll-view class='listcontinor' scroll-y>
 
   <view class='choosebar flex vertical'>
 
-    <text class='glist'>aaa</text>
+    <view class='glist {{glistcolor}}' bindtap='glistTap'>挑战领奖</view>
 
-    <text class='record'>bbb</text>
+    <view class='record {{recordcolor}}' bindtap='recordTap'>领奖记录</view> 
 
   </view>
 
   <!-- 礼物列表  -->
-  <block wx:for-items="{{items}}">
-
+  
+  <block wx:for-items="{{items}}" wx:if="{{ msgPrompt === false}}">
     <view class='item flex'>
 
       <view class='picture'>
@@ -27,7 +27,8 @@
       </view>
       
     </view>
-
   </block>
-
-</view>
+  
+  
+  
+</scroll-view>

@@ -65,7 +65,8 @@
 				{
 					"id": -1,
 					"name": "giftlist",
-					"pathName": "pages/giftlist/giftlist"
+					"pathName": "pages/giftlist/giftlist",
+					"query": ""
 				}
 			]
 		}
