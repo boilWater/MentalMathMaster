@@ -2,7 +2,7 @@
 
 .page{
     position: relative;
-    background-color: #666;
+    background-color: #7b60ef;
 }
 
 .task-item{
@@ -12,23 +12,25 @@
     padding: 30rpx 40rpx;
     box-sizing: border-box;
     width: 100%;
+    box-shadow: 1px 1px 5px #757474;
 }
 
 .item-title{
-  color: #fae45e;
+  color: #fb870e;
   margin-bottom: 10rpx;
 }
 
 .item-btn{
-    border: solid 1px #fae45e;
+    border: solid 1px #fb870e;
     line-height: 60rpx;
     border-radius: 35rpx;
     padding: 0 30rpx;
     margin-left: 30rpx;
+    color: #fb870e;
 }
 
 .f1 {
-  color: #fae45e;
+  color: #fff;
 }
 
 /* 弹出层 */

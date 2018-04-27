@@ -7,7 +7,7 @@
         <view class="item-title title" >每日签到</view>
         <view class="label notes-color">每日登陆可获取一次挑战机会</view>
     </view>
-    <view class="item-btn theme-color standard">已领取</view>
+    <view class="item-btn standard">已领取</view>
     <!-- <view class="item-btn theme-color standard" wx:else bindtap="receiveBtn">领取</view> -->
   </view>
 
@@ -16,7 +16,7 @@
         <view class="item-title title">邀请群好友</view>
         <view class="label notes-color">分享小程序到不同的群可获取挑战机会，同一个群获得一次挑战机会</view>
     </view>
-    <view class="item-btn theme-color standard" bindtap="signShow">去邀请</view>
+    <view class="item-btn standard" bindtap="signShow">去邀请</view>
   </view>
   
   <view class="task-item flex vertical">
@@ -24,7 +24,7 @@
         <view class="item-title title">公众号签到</view>
         <view class="label notes-color">每天到“心算大师”公众号签到，可获取一次挑战机会</view>
     </view>
-    <view class="item-btn theme-color standard" bindtap="share">去签到</view>
+    <view class="item-btn standard" bindtap="share">去签到</view>
   </view>
 
    <!-- 底部服务文字 -->

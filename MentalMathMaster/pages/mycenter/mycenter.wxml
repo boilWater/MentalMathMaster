@@ -5,7 +5,7 @@
   <view class='bluetop'>
 
     <view class='headinfo'>
-      <image src = '../resources/images/bg.png'></image>
+      <image src = '../resources/images/headinfo.png'></image>
     </view>
 
     <view class='receivegift'>
@@ -38,12 +38,12 @@
     <view class='sharegetchance flex vertical'>
       
       <view class='share flex vertical' bindtap='shareTap'>
-        <image src='../resources/images/bg.png'></image>
+        <image src='../resources/images/wechat.png'></image>
         <text> 炫耀战绩</text>
       </view>
 
       <view class='getchance flex vertical' bindtap='getchanceTap'>
-        <image src='../resources/images/bg.png'></image>
+        <image src='../resources/images/toolbox.png'></image>
         <text>获得挑战机会</text>
       </view>
 
@@ -76,13 +76,13 @@
   <view class='yellobottom'>
   
     <view class='contactcustomer flex vertical' bindtap='contactcustomerTap'>
-      <image src='../resources/images/bg.png'></image>
+      <image src='../resources/images/services.png'></image>
       <text>客服微信：12345678</text>
     </view>
 
     <view class='moregames flex vertical'>
       <view class='gamehead'> 
-        <image src='../resources/images/bg.png'></image>
+        <image src='../resources/images/dog.png'></image>
       </view>
 
       <view class='gamedetail'>
@@ -95,7 +95,7 @@
 
     <view class='moregames flex vertical'>
       <view class='gamehead'> 
-        <image src='../resources/images/bg.png'></image>
+        <image src='../resources/images/dog.png'></image>
       </view>
 
       <view class='gamedetail'>

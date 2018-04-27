@@ -5,9 +5,10 @@ const app = getApp()
 Page({
   data: {
     total:'1000',
-    userInfo: {},
-    hasUserInfo: false,
-    canIUse: wx.canIUse('button.open-type.getUserInfo')
+    selectindex: '0',
+    honourcolor: 'selectorcolor',
+    perseverancecolor: 'unselectorcolor',
+    prizecolor:'unselectorcolor'
   },
   //事件处理函数
   bindViewTap: function() {
@@ -63,23 +64,38 @@ Page({
       url: '',
     })
   },
+  // 选取荣耀帮
   honourTap: function(e) {
-    //荣誉榜
-    wx.navigateTo({
-      url: '',
-    })
+    if (this.data.selectindex != 0) {
+      this.setData({
+        selectindex: '0',
+        honourcolor: 'selectorcolor',
+        perseverancecolor: 'unselectorcolor',
+        prizecolor: 'unselectorcolor'
+      });
+    }
   },
+  //选取毅力榜
   perseveranceTap: function(e) {
-    //毅力榜
-    wx.navigateTo({
-      url: '',
-    })
+    if (this.data.selectindex != 1) {
+      this.setData({
+        selectindex: '1',
+        honourcolor: 'unselectorcolor',
+        perseverancecolor: 'selectorcolor',
+        prizecolor: 'unselectorcolor'
+      });
+    }
   },
+  //选取娃娃奖品
   prizeTap: function(e) {
-    //挖完奖品
-    wx.navigateTo({
-      url: '',
-    })
+    if (this.data.selectindex != 2) {
+      this.setData({
+        selectindex: '2',
+        honourcolor: 'unselectorcolor',
+        perseverancecolor: 'unselectorcolor',
+        prizecolor: 'selectorcolor'
+      });
+    }
   },
   goYyCenter: function(e) {
     //个人中心

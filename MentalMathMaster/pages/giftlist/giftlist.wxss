@@ -59,7 +59,7 @@
   margin-bottom: 35rpx;
   height: 420rpx;
   background-color: #fff;
-  box-shadow: 0rpx 3rpx 20rpx rgba(255, 130, 84, 0.5);
+  box-shadow: 5rpx 5rpx 3rpx #5e41dd;
   border-radius: 15rpx;
 }
 
@@ -84,7 +84,7 @@
   height: 102rpx;
   border-bottom-left-radius: 18rpx;
   border-bottom-right-radius: 18rpx;
-  background-color: #fae45e; 
+  background-color: #eade46; 
 }
 
 .bottom .name {
@@ -104,7 +104,7 @@
   margin-right: 25rpx;
   text-align: center;
   border-radius: 30rpx;
-  background-color: #fff; 
+  background-color: #f66954; 
 }
 
 /* 领取记录页  */
@@ -149,18 +149,18 @@
   margin: 45rpx 150rpx;
   padding: 10rpx 0;
   border-radius: 35rpx;
-  background-color: #fae45e;
+  background-color: #eade46;
 }
 
 /* 有领取物品的详细界面  */
 
 .list {
   margin: 20rpx 15rpx 35rpx 15rpx;
-  height: 720rpx;
+  height: 920rpx;
   /* background-color: #fff; */
-  box-shadow: 0rpx 3rpx 20rpx rgba(255, 130, 84, 0.5);
+  box-shadow: 5rpx 5rpx 3rpx #5e41dd;
   border-radius: 15rpx;
-  background-color: #fae45e;
+  background-color: #eade46;
 }
 
 .listimage {
@@ -235,5 +235,12 @@
   height: 145rpx;
   padding-left: 20rpx;
   margin: 2rpx 0;
+}
 
+.goservices {
+  width: 100%;
+  margin-bottom: 50rpx;
+  text-align: center;
+  font-size: 9px;
+  color: #7b60ef;
 }

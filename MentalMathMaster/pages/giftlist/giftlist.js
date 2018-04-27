@@ -29,7 +29,7 @@ Page({
     // 领取礼物详细信息页：
     // false : 没有礼物信息
     // true : 有礼物信息
-    receivelist: false,
+    receivelist: true,
   },
 
   /**

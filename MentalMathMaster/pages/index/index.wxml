@@ -28,11 +28,22 @@
   <view class='yellowbottom'>
 
     <view class='ranklist flex vertical'>
-      <view class='honour' bindtap='honourTap'>荣誉榜</view>
-      <view class='perseverance' bindtap='perseveranceTap'>毅力榜</view>
-      <view class='prize' bindtap='prizeTap'>娃娃奖品</view>
-    </view>
+      <view class='honour {{ honourcolor }}' bindtap='honourTap'>荣誉榜</view>
+      <view class='perseverance {{ perseverancecolor }}' bindtap='perseveranceTap'>毅力榜</view>
+      <view class='prize {{ prizecolor }}' bindtap='prizeTap'>娃娃奖品</view>
+    </view> 
 
+    <block wx:if="{{ selectindex == 0}}">
+      <view>selectindex = 0</view>
+    </block>
+
+    <block wx:if="{{ selectindex == 1}}">
+      <view>selectindex = 1</view>
+    </block>
+
+    <block wx:if="{{ selectindex == 2}}">
+      <view>selectindex = 2</view>
+    </block>
 
   </view>
    

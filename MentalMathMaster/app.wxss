@@ -33,7 +33,7 @@
 /* 加重颜色 */
 .weight-color{ color: #fe555a }
 /* 注释颜色 */
-.notes-color{ color: #666; }
+.notes-color{ color: #757474; }
 /* 单行超出... */
 .ellipsis{ overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* 点击状态 */
@@ -44,7 +44,7 @@
 /* 页面统一设置 */
 .page{ width: 100%; min-height: 100vh; box-sizing: border-box; padding: 30rpx; background-color: #7b61ef}
 /* 背景渐变 */
-.bg{ background: -webkit-linear-gradient(to top, #7b61ef, #7b31af); background: linear-gradient(to top, #7b61ef, #7b31af); }
+.bg{ background: -webkit-linear-gradient(to top, #7b61ef, #5e41d9); background: linear-gradient(to top, #7b61ef, #5e41d9); }
 /* 边框 */
 .border{ border: solid 1px #ffeae2; }
 /* 弹出层 */

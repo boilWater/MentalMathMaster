@@ -61,6 +61,8 @@
         <view class='telephone'>联系电话： {{ item.telephone }}</view>
         <view class='address'>收货地址： {{ item.address }}</view>
       
+        <view class='goservices' bindtap='goServicesTap'>如有错误请点击此处联系客服</view>
+        
       </view>
 
     </block>

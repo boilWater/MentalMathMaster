@@ -1,7 +1,7 @@
 /* pages/reveivegift/reveivegift.wxss */
 
 page {
-  background-color: #fae45e;
+  background-color: #eadc46;
 }
 
 .containe {
@@ -29,6 +29,7 @@ page {
   margin-left: 5%;
   font-size: 11pt;
   margin-bottom: 8px;
+  color: #3d3d3d;
 }
 
 .receivor {
