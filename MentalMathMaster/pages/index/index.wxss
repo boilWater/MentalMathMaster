@@ -189,6 +189,57 @@ page {
   /* background-color: #fff;  */
 }
 
+/* 娃娃奖品  */
+
+.recriveview {
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  height: 120rpx;
+  background-color: #fef9cc;
+}
+
+.recriveview text {
+  margin-left: 30rpx;
+  font-size: 14px;
+  text-align: center;
+}
+
+.goreceive {
+  position: absolute;
+  right: 52rpx;
+  width: 200rpx;
+  height: 60rpx;
+  padding-top: 5rpx;
+  font-size: 16px;
+  text-align: center;
+  border-radius: 42rpx;
+  background-color: #eeba28;
+}
+
+.gift {
+  margin-top: 20rpx;
+  height: 500rpx;
+  margin-left: 25rpx;
+  margin-right: 25rpx;
+  background-color: #efeb8b;
+}
+
+.giftimage {
+  height: 420rpx;
+  width: 100%;
+}
+
+.gift image {
+  height: 420rpx;
+  width: 100%;
+}
+
+.giftname {
+  height: 70rpx;
+  padding-top: 10rpx;
+  text-align: center;
+  background-color: #fff;
+}
 
 /* .message-show {
   position: absolute;

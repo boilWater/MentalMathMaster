@@ -67,7 +67,23 @@
 
     <!-- 娃娃奖品 -->
     <block wx:if="{{ selectindex == 2}}">
-      <view>selectindex = 2</view>
+      
+      <view class='recriveview flex vertical'>
+        <text>挑战成功领取娃娃</text>
+        <view class='goreceive' bindtap='goReceiveTap'>立即领取</view>
+      </view>
+
+      <view wx:for-items="{{ recrivelists }}">
+        
+        <view class='gift'> 
+          <view class='giftimage'>
+            <image src='{{ item.url }}'></image>
+          </view>
+          <view class='giftname'>{{ item.name }}</view>
+        </view>
+
+      </view>
+
     </block>
 
   </view>

@@ -27,6 +27,15 @@ Page({
       { index: '6', url: '../resources/images/dog.png', number: '2', name: 'JackJin' },
       { index: '7', url: '../resources/images/dog.png', number: '1', name: 'JackJin' },
     ],
+    recrivelists:[
+      { url: '../resources/images/u579.png', name:'泰迪熊'},
+      { url: '../resources/images/u579.png', name: '泰迪熊' },
+      { url: '../resources/images/u579.png', name: '泰迪熊' },
+      { url: '../resources/images/u579.png', name: '泰迪熊' },
+      { url: '../resources/images/u579.png', name: '泰迪熊' },
+      { url: '../resources/images/u579.png', name: '泰迪熊' },
+      { url: '../resources/images/u579.png', name: '泰迪熊' },
+    ],
   },
   //事件处理函数
   bindViewTap: function() {
@@ -119,6 +128,11 @@ Page({
     //个人中心
     wx.navigateTo({
       url: '../mycenter/mycenter',
+    })
+  },
+  goReceiveTap: function(e) {
+    wx.navigateTo({
+      url: '../giftlist/giftlist',
     })
   }
 })
