@@ -22,13 +22,49 @@
       <view class='bottom flex vertical'>
 
         <text class='name'>{{item.name}}</text>
-        <view class='receive'>领取</view>
+        <view class='receive' bindtap='goReceiveTap'>领取</view>
 
       </view>
       
     </view>
   </block>
-  
-  
+
+  <view class='receivegift' wx:if="{{msgPrompt === true}}">
+    
+    <!--  领奖记录没有相关信息 -->
+    <view class='receiveblank' wx:if="{{receivelist == false}}">
+
+      <view class='blankimage'>
+        <image src='../resources/images/bg.png'></image>
+      </view>
+      
+      <view class='blankdetail'>小主，目前还没有领取奖品信息喔:-O</view>
+      <view class='godetail'>赶紧去挑战~</view>
+      <view class='goChallenge'>去挑战</view>
+
+    </view>
+
+    <!-- 领取记录的详细信息列表 -->
+    <block wx:for="{{ lists }}" wx:if="{{receivelist == true}}">
+      
+      <view class='list flex'>
+
+        <view class='listimage'>
+          <image src='{{ item.url }}'></image>
+        </view>
+
+        <view class='giftname'>奖品名称： {{ item.giftname }}</view>
+        <view class='applytime'>申请时间： {{ item.applytime }}</view>
+        <view class='sendtime'>发货时间： {{ item.sendtime }}</view>
+        <view class='senddetail'>快递信息： {{ item.senddetail }}</view>
+        <view class='receivor'>收件人： {{ item.receivor }}</view>
+        <view class='telephone'>联系电话： {{ item.telephone }}</view>
+        <view class='address'>收货地址： {{ item.address }}</view>
+      
+      </view>
+
+    </block>
+
+  </view>
   
 </scroll-view>

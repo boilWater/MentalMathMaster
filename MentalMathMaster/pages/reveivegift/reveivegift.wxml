@@ -1,0 +1,22 @@
+<!--pages/reveivegift/reveivegift.wxml-->
+
+<view class='containe'>
+
+  <view class='gift'>
+    <image src='{{ gifturl }}'></image>
+  </view>
+
+  <view class='detail'>已选奖品：{{ gitfname }}</view>
+  
+  <view class='receivor'>收件人：</view>
+  <input class='receivorinput' placeholder='请填写收件人姓名'></input>
+
+  <view class='phone'>联系电话：</view>
+  <input class='phoneinput' placeholder='请填写联系电话'></input>
+
+  <view class='address' placeholder=''>收件地址：</view>
+  <input class='addressinput' placeholder='请填收件地址'></input>
+
+  <view class='upload'>确认无误，提交信息</view>
+
+</view>

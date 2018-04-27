@@ -106,3 +106,134 @@
   border-radius: 30rpx;
   background-color: #fff; 
 }
+
+/* 领取记录页  */
+
+/* 没有领取礼物的记录  */
+.receivegift {
+  width: 100%;
+  height: 90%;
+  /* background-color: #fff;  */
+}
+
+.receiveblank {
+  width: 100%;
+  text-align: center;
+  /* background-color: #fff; */
+}
+
+.blankimage {
+  width: 100%;
+}
+
+.blankimage image{
+  margin-top: 100rpx;
+  width: 200rpx;
+  height: 200rpx;
+}
+
+.blankdetail {
+  margin-top: 70rpx;
+  font-size: xx-small;
+  color: #fff;
+}
+
+.godetail {
+  margin-top: 20rpx;
+  font-size: xx-small;
+  color: #fff;
+}
+
+.goChallenge {
+  height: 50rpx;
+  margin: 45rpx 150rpx;
+  padding: 10rpx 0;
+  border-radius: 35rpx;
+  background-color: #fae45e;
+}
+
+/* 有领取物品的详细界面  */
+
+.list {
+  margin: 20rpx 15rpx 35rpx 15rpx;
+  height: 720rpx;
+  /* background-color: #fff; */
+  box-shadow: 0rpx 3rpx 20rpx rgba(255, 130, 84, 0.5);
+  border-radius: 15rpx;
+  background-color: #fae45e;
+}
+
+.listimage {
+  width: 100%;
+  height: 320rpx;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+  /* background-color: #aaa; */
+}
+
+.listimage image {
+  width: 100%;
+  height: 320rpx;
+  border-top-left-radius: 15rpx;
+  border-top-right-radius: 15rpx;
+}
+
+.giftname {
+  margin-top: 20rpx;
+  font-size: xx-small;
+  width:100%;
+  height: 45rpx;
+  padding-left: 20rpx;
+  /* background-color: #aaa; */
+}
+
+.applytime {
+  font-size: xx-small;
+  width:100%;
+  height: 45rpx;
+  padding-left: 20rpx;
+  margin: 2rpx 0;
+  /* background-color: #aaa; */
+}
+
+.sendtime {
+  font-size: xx-small;
+  width:100%;
+  height: 45rpx;
+  padding-left: 20rpx;
+  margin: 2rpx 0;
+}
+
+.senddetail {
+  font-size: xx-small;
+  width:100%;
+  height: 45rpx;
+  padding-left: 20rpx;
+  margin: 2rpx 0;
+}
+
+.receivor {
+  font-size: xx-small;
+  width:100%;
+  height: 45rpx;
+  padding-left: 20rpx;
+  margin: 2rpx 0;
+}
+
+.telephone {
+  font-size: xx-small;
+  width:100%;
+  height: 45rpx;
+  padding-left: 20rpx;
+  margin: 2rpx 0;
+
+}
+
+.address {
+  font-size: xx-small;
+  width:100%;
+  height: 145rpx;
+  padding-left: 20rpx;
+  margin: 2rpx 0;
+
+}

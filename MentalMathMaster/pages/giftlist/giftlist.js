@@ -17,9 +17,19 @@ Page({
       { name: 'aaa-6', url: '../resources/images/u579.png'},
       { name: 'aaa-7', url: '../resources/images/u579.png'}
     ],
+    lists: [
+      { giftname: 'aaa-0', url: '../resources/images/u579.png', applytime: '2018-4-27', sendtime: ' 2018-4 - 27', senddetail: '中通快递', receivor: 'JackJin', telephone: '15875391643', address:'中华广场 A座 15 楼 久邦信息科技' },
+      { giftname: 'aaa-0', url: '../resources/images/u579.png', applytime: '2018-4-27', sendtime: ' 2018-4 - 27', senddetail: '中通快递', receivor: 'JackJin', telephone: '15875391643', address: '中华广场 A座 15 楼 久邦信息科技' },
+      { giftname: 'aaa-0', url: '../resources/images/u579.png', applytime: '2018-4-27', sendtime: ' 2018-4 - 27', senddetail: '中通快递', receivor: 'JackJin', telephone: '15875391643', address: '中华广场 A座 15 楼 久邦信息科技' }
+    ],
     glistcolor: 'selectcolor',
     recordcolor: 'unselectcolor',
+    // 奖品选项框: false -> 挑战领奖 true -> 领奖记录
     msgPrompt: false,
+    // 领取礼物详细信息页：
+    // false : 没有礼物信息
+    // true : 有礼物信息
+    receivelist: false,
   },
 
   /**
@@ -111,6 +121,10 @@ Page({
         recordcolor : 'selectcolor'
       })
     }
-
+  },
+  goReceiveTap: function(e) {
+    wx.navigateTo({
+      url: '../reveivegift/reveivegift',
+    })
   }
 })

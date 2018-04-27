@@ -30,7 +30,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 5,
+			"current": 6,
 			"list": [
 				{
 					"id": 0,
@@ -67,6 +67,11 @@
 					"name": "giftlist",
 					"pathName": "pages/giftlist/giftlist",
 					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "reveivegift",
+					"pathName": "pages/reveivegift/reveivegift"
 				}
 			]
 		}

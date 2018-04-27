@@ -6,7 +6,8 @@
     "pages/mycenter/mycenter",
     "pages/task/task",
     "pages/report/report",
-    "pages/giftlist/giftlist"
+    "pages/giftlist/giftlist",
+    "pages/reveivegift/reveivegift"
   ],
   "window": {
     "backgroundTextStyle": "light",
