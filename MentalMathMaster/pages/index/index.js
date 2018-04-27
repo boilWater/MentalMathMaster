@@ -8,7 +8,25 @@ Page({
     selectindex: '0',
     honourcolor: 'selectorcolor',
     perseverancecolor: 'unselectorcolor',
-    prizecolor:'unselectorcolor'
+    prizecolor:'unselectorcolor',
+    honourlists:[
+      { index: '1', url: '../resources/images/dog.png', number: '10', name:'白亮' },
+      { index: '2', url: '../resources/images/dog.png', number: '9', name:'JackJin' },
+      { index: '3', url: '../resources/images/dog.png', number: '8', name:'JackJin'  },
+      { index: '4', url: '../resources/images/dog.png', number: '7', name:'JackJin'  },
+      { index: '5', url: '../resources/images/dog.png', number: '5', name:'JackJin'  },
+      { index: '6', url: '../resources/images/dog.png', number: '2', name:'JackJin'  },
+      { index: '7', url: '../resources/images/dog.png', number: '1', name:'JackJin'  },
+    ],
+    willpowerlists:[
+      { index: '1', url: '../resources/images/dog.png', number: '10', name: '白亮' },
+      { index: '2', url: '../resources/images/dog.png', number: '9', name: 'JackJin' },
+      { index: '3', url: '../resources/images/dog.png', number: '8', name: 'JackJin' },
+      { index: '4', url: '../resources/images/dog.png', number: '7', name: 'JackJin' },
+      { index: '5', url: '../resources/images/dog.png', number: '5', name: 'JackJin' },
+      { index: '6', url: '../resources/images/dog.png', number: '2', name: 'JackJin' },
+      { index: '7', url: '../resources/images/dog.png', number: '1', name: 'JackJin' },
+    ],
   },
   //事件处理函数
   bindViewTap: function() {

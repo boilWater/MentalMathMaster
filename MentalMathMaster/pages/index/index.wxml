@@ -4,7 +4,7 @@
   <view class='bluetop'>
    
     <view class='challenge'>
-      <image src='../resources/images/bg.png'></image>
+      <image src='../resources/images/hometop.png' mode='scaleToFill'></image>
     </view>
 
     <view class='challengetext flex vertical'>
@@ -33,14 +33,39 @@
       <view class='prize {{ prizecolor }}' bindtap='prizeTap'>娃娃奖品</view>
     </view> 
 
+    <!-- 荣誉榜 -->
     <block wx:if="{{ selectindex == 0}}">
-      <view>selectindex = 0</view>
+      <view class='honoueview' wx:for-items="{{ honourlists }}">
+        
+        <view class='list flex vertical'> 
+          <text>{{ item.index }}</text>
+           <view class='listheadinfo'>
+            <image src='{{ item.url }}'></image>
+          </view>
+          <view class='listname'>{{ item.name }}</view> 
+          <view class='listnumber'>获得娃娃{{ item.number }}</view>  
+        </view>
+
+      </view>
     </block>
 
+    <!-- 毅力榜 -->
     <block wx:if="{{ selectindex == 1}}">
-      <view>selectindex = 1</view>
+      <view wx:for-items="{{ willpowerlists }}">
+        
+        <view class='list flex vertical'> 
+          <text>{{ item.index }}</text>
+           <view class='listheadinfo'>
+            <image src='{{ item.url }}'></image>
+          </view>
+          <view class='listname'>{{ item.name }}</view> 
+          <view class='listnumber'>挑战{{ item.number }}次</view>  
+        </view>
+
+      </view>
     </block>
 
+    <!-- 娃娃奖品 -->
     <block wx:if="{{ selectindex == 2}}">
       <view>selectindex = 2</view>
     </block>
