@@ -1,7 +1,7 @@
 /* pages/reveivegift/reveivegift.wxss */
 
 page {
-  background-color: #eadc46;
+  background-color: rgba(249, 213, 73, 1);
 }
 
 .containe {
@@ -15,7 +15,8 @@ page {
   width: 90%;
   margin: 30rpx 5% 20rpx 5%;
   border-radius: 30rpx;
-  background-color: #aaa; 
+  background-color: #aaa;
+  box-shadow: 4rpx 4rpx 8rpx #aaa;  
 }
 
 .gift image {
@@ -29,13 +30,14 @@ page {
   margin-left: 5%;
   font-size: 11pt;
   margin-bottom: 8px;
-  color: #3d3d3d;
+  color: rgba(78, 78, 78, 1);
 }
 
 .receivor {
   margin-left: 5%;
   font-size: 11pt;
   margin-bottom: 3px;
+  color: rgba(78, 78, 78, 1);
 }
 
 .receivorinput {
@@ -44,7 +46,7 @@ page {
   padding-left: 15rpx;
   font-size: 10pt;
   margin-left: 5%;
-  border-radius: 15rpx;
+  border-radius: 4pt;
   background-color: #fff;
   margin-bottom: 10px;
 }
@@ -53,6 +55,7 @@ page {
   margin-left: 5%;
   font-size: 11pt;
   margin-bottom: 3px;
+  color: rgba(78, 78, 78, 1);
 }
 
 .phoneinput {
@@ -61,7 +64,7 @@ page {
   margin-left: 5%;
   padding-left: 15rpx;
   font-size: 10pt;
-  border-radius: 15rpx;
+  border-radius: 4pt;
   background-color: #fff;
   margin-bottom: 10px;
 }
@@ -70,6 +73,7 @@ page {
   margin-left: 5%;
   font-size: 11pt;
   margin-bottom: 3px;
+  color: rgba(78, 78, 78, 1);
 }
 
 .addressinput {
@@ -78,24 +82,24 @@ page {
   margin-left: 5%;
   padding-left: 15rpx;
   font-size: 10pt;
-  border-radius: 15rpx;
+  border-radius: 4pt;
   background-color: #fff;
   margin-bottom: 20px;
 }
 
 .upload {
-  font-size: 11pt;
-  padding: 18rpx 0rpx;
+  font-size: 14px;
+  padding: 20rpx 0rpx;
   padding-left: 15rpx;
   width: 90%;
   margin-left: 5%;
-  border-radius: 15rpx;
-  color: #7b61ef;
+  border-radius: 4pt;
+  color: rgba(251, 251, 254, 1);
   text-align: center;
-  background-color: #fff;
-  border-width: 2rpx;
+  background-color: rgba(62, 173, 8, 1);
+  /* border-width: 2rpx;
   border-color: #7b61ef;
-  border-style: solid;
+  border-style: solid; */
 }
 
 

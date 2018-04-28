@@ -1,14 +1,16 @@
 /* pages/giftlist/giftlist.wxss */
 
-.page {
+/* .page {
   background-color: #7b60ef;
-}
+  //主颜色
+  background-color: rgba(143, 123, 242, 1);
+} */
 
 .listcontinor {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #7b60ef;
+  background-color: rgba(143, 123, 242, 1);
 }
 
 .choosebar {
@@ -28,6 +30,7 @@
   /* background-color: #fff; */
   border-radius: 30rpx;
   text-align: center;
+  color: rgba(253, 252, 252, 0.5);
 }
 
 .record {
@@ -39,14 +42,15 @@
   background-color: #7b60ef; 
   border-radius: 30rpx;
   text-align: center;
+  color: rgba(253, 252, 252, 0.5);
 }
 
 .selectcolor {
-  background-color: #fff;
+  background-color: rgba(253, 252, 252, 1);
 }
 
 .unselectcolor {
-  background-color: #7b60ef;
+  background-color: rgba(143, 123, 242, 1);
 }
 
 /* 礼物列表的 item 布局 */
@@ -84,15 +88,15 @@
   height: 102rpx;
   border-bottom-left-radius: 18rpx;
   border-bottom-right-radius: 18rpx;
-  background-color: #eade46; 
+  background-color: rgba(249, 213, 73, 1); 
 }
 
 .bottom .name {
   width: 40%;
   padding-left: 30rpx;
   margin-right: 30%;
-  font-size: 56;
-  color: #fff;
+  font-size: 15px;
+  color: rgba(254, 254, 255, 1);
   /* background-color: #aaa;  */
 }
 
@@ -101,10 +105,11 @@
   width: 20%;
   font-size: xx-small;
   padding: 5rpx 0rpx;
-  margin-right: 25rpx;
+  margin-right: 15rpx;
   text-align: center;
   border-radius: 30rpx;
-  background-color: #f66954; 
+  background-color: rgba(250, 128, 102, 1); 
+  color: rgbargba(253, 252, 252, 0.5);
 }
 
 /* 领取记录页  */
@@ -160,7 +165,7 @@
   /* background-color: #fff; */
   box-shadow: 5rpx 5rpx 3rpx #5e41dd;
   border-radius: 15rpx;
-  background-color: #eade46;
+  background-color:  rgba(249, 213, 73, 1);
 }
 
 .listimage {
@@ -225,8 +230,7 @@
   width:100%;
   height: 45rpx;
   padding-left: 20rpx;
-  margin: 2rpx 0;
-
+  margin: 2rpx 0; 
 }
 
 .address {
@@ -241,6 +245,6 @@
   width: 100%;
   margin-bottom: 50rpx;
   text-align: center;
-  font-size: 9px;
-  color: #7b60ef;
+  font-size: 10px;
+  color: rgba(143, 123, 242, 1);
 }

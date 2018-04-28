@@ -16,21 +16,21 @@
 }
 
 .item-title{
-  color: #fb870e;
+  color: rgba(254, 154, 11, 1.0);
   margin-bottom: 10rpx;
 }
 
 .item-btn{
-    border: solid 1px #fb870e;
+    border: solid 1px rgba(254, 154, 11, 1.0);
     line-height: 60rpx;
     border-radius: 35rpx;
     padding: 0 30rpx;
     margin-left: 30rpx;
-    color: #fb870e;
+    color: rgba(254, 154, 11, 1.0);
 }
 
 .f1 {
-  color: #fff;
+  color: rgba(254, 254, 253, 1.0);
 }
 
 /* 弹出层 */

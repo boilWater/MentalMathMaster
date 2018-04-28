@@ -27,7 +27,7 @@
 /* 标签,注释字体 */
 .label{ font-size: 28rpx; }
 /* 最小字体 */
-.mintext{ font-size: 24rpx; color: #fff}
+.mintext{ font-size: 24rpx; color: rgbargba(253, 252, 252, 0.5);}
 /* 主题颜色 */
 .theme-color{ color: #fae45e }
 /* 加重颜色 */

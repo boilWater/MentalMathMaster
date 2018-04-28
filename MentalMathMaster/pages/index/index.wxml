@@ -8,13 +8,13 @@
     </view>
 
     <view class='challengetext flex vertical'>
-      <text class='wintext'>挑战成功赢娃娃</text>
-      <text class="iconfont icon-i-info" bindtap='ruleTap'>\e61a</text> 
+      <view class='wintext'>挑战成功赢娃娃</view>
+      <text class="iconfont icon-i-info" bindtap='ruleTap'></text> 
     </view>
 
     <view class='slogan'>
-      <view>跑酷加减法</view>
-      <view>判断力训练营</view>
+      <view class='text-shadow: 12rpx 5prx 4rpx #5d6979'>跑酷加减法</view>
+      <view class='text-shadow: 12rpx 5prx 4rpx #5d6979'>判断力训练营</view>
     </view>
 
     <view class='total'>当前共{{total}}次挑战</view>

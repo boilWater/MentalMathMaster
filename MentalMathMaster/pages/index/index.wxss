@@ -10,42 +10,51 @@ page {
   position: absolute; 
   top: 0rpx;
   width: 100%;
-  height: 640rpx;
-  background-color: #7b61ef;
+  height: 660rpx;
+  background-color: rgb(143, 123, 242);
 }
 
 .challenge {
+  margin-top: 30rpx;
   width: 100%;
   height: 180rpx;
-  margin-top: 10rpx;
+  /* margin-top: 10rpx; */
   text-align: center; 
   /* background-color: #fae45e; */
 }
 
 .challenge image {
   width: 540rpx;
-  height: 107rpx;
+  height: 108rpx;
 }
 
 .challengetext {
   position: absolute;
   width: 100%;
-  top: 65rpx;
-  left: 220rpx;   
+  top: 75rpx;
+  text-align: center; 
+  /* background-color: #fff;   */
 }
 
 .challengetext .wintext {
+  width: 100%;
   font-size: smaller;
-  color: #fae45e;
+  color: rgba(353, 252, 252, 1);
+  text-align: center;
 }
 
 .slogan {
   text-align: center;
   font-size: x-large;
-  color: #fff;
+  color: rgba(353, 252, 252, 1);
   font-weight: bold;
   margin-bottom: 30rpx;
 }
+
+/* .slogan view {
+  
+  /* box-shadow: 12rpx 1prx 4rpx #5d6979; */
+/* } */
 
 .total {
   text-align: center;
@@ -60,10 +69,11 @@ page {
   margin-left: 150rpx;
   margin-right: 150rpx;
   border-radius: 45rpx;
+  color: rgb(121, 51, 212);
   background-color: #6d41e2;
   margin-bottom: 25rpx;
-  border-width: 14rpx;
-  border-color:  #5d00b7;
+  border-width: 8rpx;
+  border-color:  rgb(121, 51, 212);
   border-style: solid;
   background: linear-gradient(to bottom, #eff125, #eeba28); 
   /* transform: translate(50%, 50%); */
@@ -74,8 +84,10 @@ page {
   padding: 13rpx;
   margin-left: 150rpx;
   margin-right: 150rpx;
+  margin-bottom: 30rpx;
   border-radius: 38rpx;
-  background-color: #a08cf1;
+  background-color: rgba(353, 252, 252, 0.3);
+  color: rgb(254, 254, 255);
 }
 
 
@@ -83,7 +95,7 @@ page {
 
 .yellowbottom {
   position: absolute; 
-  top: 640rpx;  
+  top: 660rpx;  
   width: 100%;
   /* height: 900rpx; */
   background-color: #eade46;
@@ -92,44 +104,65 @@ page {
 
 .ranklist {
   margin: 25rpx 25rpx 15rpx 25rpx;
-  background-color: #ccc;
+  /* background-color: #ccc; */
 }
 
 .honour {
   width: 32%;
   text-align: center;
+  height: 56rpx;
+  font-size: 14px;
+  padding-top: 6rpx;
   border-color: #7b61ef;
-  border-width: 1rpx;
+  border-left-width: 1rpx;
+  border-top-width: 1rpx;
+  border-bottom-width: 1rpx;
+  border-right-width: 0rpx;
+  border-right-style: 0rpx;
   border-style: solid;
+  color: rgb(209, 207, 207);
 }
 
 .perseverance {
   width: 34%;
+  height: 56rpx;
+  font-size: 14px;
+  padding-top: 6rpx;
   text-align: center;
   border-color: #7b61ef;
-  border-width: 1rpx;
+  border-width: 1rpx; 
   border-style: solid;
+  color: rgb(209, 207, 207);
 }
 
 .prize {
   width: 32%;
+  height: 56rpx;
+  font-size: 14px;
+  padding-top: 6rpx;
   text-align: center;
   border-color: #7b61ef;
-  border-width: 1rpx;
+  border-right-width: 1rpx;
+  border-top-width: 1rpx;
+  border-bottom-width: 1rpx;
+  border-left-width: 0rpx;
   border-style: solid;
+  color: rgb(209, 207, 207);
 }
 
 .selectorcolor {
-  background-color: #7b61ef;
+  background-color: rgb(143, 123, 242);
+  color: rgb(254, 254, 255);
 }
 
 .unselectorcolor {
   background-color: #fff;
+  color: #5d6979;
 }
 
 .yellowscroll {
   height: 40rpx;
-  background-color: #fff;
+  background-color: rgb(254, 154, 12);
 }
 
 /* 荣誉榜 的 list  */
@@ -143,7 +176,7 @@ page {
   height: 100rpx;
   margin-left: 25rpx;
   margin-right: 25rpx;
-  background-color: #efeb8b;
+  background-color: rgb(249, 245, 205);
   /* margin-bottom: 2rpx; */
 }
 
@@ -154,6 +187,7 @@ page {
   text-align: center;
   border-radius: 50%; 
   margin-left: 35rpx;
+  color: rgba(353, 252, 252, 1);
   background-color: #eeba28;
 }
 
@@ -162,7 +196,7 @@ page {
   height: 75rpx;
   margin-left: 30rpx;
   border-radius: 50%; 
-  background-color: #eeba28;
+  background-color: rgb(180, 160, 246);
 }
 
 .listheadinfo image {
@@ -171,6 +205,7 @@ page {
   /* margin-top: 15rpx;
   margin-left: 35rpx; */
   border-radius: 50%;
+  background-color: rgb(209, 207, 207);
 }
 
 .listname {
@@ -195,7 +230,7 @@ page {
   margin-left: 25rpx;
   margin-right: 25rpx;
   height: 120rpx;
-  background-color: #fef9cc;
+  background-color: rgb(249, 245, 205);
 }
 
 .recriveview text {
@@ -209,11 +244,12 @@ page {
   right: 52rpx;
   width: 200rpx;
   height: 60rpx;
-  padding-top: 5rpx;
-  font-size: 16px;
+  padding-top: 7rpx;
+  font-size: 14px;
   text-align: center;
   border-radius: 42rpx;
   background-color: #eeba28;
+  color: #5d6979;
 }
 
 .gift {
@@ -222,6 +258,7 @@ page {
   margin-left: 25rpx;
   margin-right: 25rpx;
   background-color: #efeb8b;
+  box-shadow: 2rpx 2rpx 1rpx #aaa;
 }
 
 .giftimage {

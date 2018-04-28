@@ -1,14 +1,14 @@
 /* pages/mycenter/mycenter.wxss */
 
 page{
-background-color:#fae45e;
+background-color:#fff;
 height:100%;
 }
 
 .bluetop {
    /* top: 30rpx;  */
   position: absolute;
-  background-color: #7b60ef; 
+  background-color: rgba(143, 123, 242, 1.0); 
   width: 100%;
   height: 580rpx; 
   top: 0rpx;
@@ -44,16 +44,16 @@ height:100%;
 
 .nameinfo {
   font-size: small;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 .goreveivegift {
   margin-left: 15rpx;
   padding: 8rpx 17rpx;
   font-size: x-small;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
   border-radius: 25rpx;
-  background-color: #5e41d0;
+  background-color: rgba(114, 92, 224, 1.0);
 }
 
 /* 领取的次数  */
@@ -73,12 +73,12 @@ height:100%;
 
 .chancenumber {
   font-size: x-large;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 .chancetext {
   font-size: xx-small;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 .finish {
@@ -90,12 +90,12 @@ height:100%;
 .finishnumber {
   padding-left: 20rpx;
   font-size: x-large;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 .finishtext {
    font-size: xx-small;
-   color: #fff;
+   color: rgba(254, 254, 255, 1.0);
 }
 
 .scorehigh {
@@ -107,12 +107,12 @@ height:100%;
 .scorehighnumber {
   padding-left: 20rpx;
   font-size: x-large;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 .scorehightext {
   font-size: xx-small;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 /* share & .getchance  */
@@ -130,7 +130,7 @@ height:100%;
   margin-left: 80rpx;
   margin-right: 40rpx;
   border-radius: 35rpx;
-  background-color: #b9abf5;
+  background-color: rgba(253, 252, 252, 0.5);
 }
 
 .share image {
@@ -142,6 +142,7 @@ height:100%;
 
 .share text {
   font-size: xx-small;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 .getchance {
@@ -151,7 +152,7 @@ height:100%;
   right: 80rpx;
   margin-right: 80rpx;
   border-radius: 35rpx;
-  background-color: #b9abf5;
+  background-color: rgba(253, 252, 252, 0.5);
 }
 
 .getchance image {
@@ -163,6 +164,7 @@ height:100%;
 
 .getchance text {
   font-size: xx-small;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 /* yellow bottom  */
@@ -179,7 +181,7 @@ height:100%;
   margin: 40rpx;
   height: 70rpx; 
   border-radius: 50rpx;
-  background-color: #34a10a;
+  background-color: rgba(62, 173, 8, 1.0);
 }
 
 .contactcustomer image {
@@ -194,7 +196,7 @@ height:100%;
 .contactcustomer text {
   font-size: smaller;
   padding: 15rpx 0;
-  color: #fff;
+  color: rgba(254, 254, 255, 1.0);
 }
 
 /* 更多游戏  */
@@ -226,19 +228,19 @@ height:100%;
 
 .gamedetail .detail{
   font-size: xx-small;
-  color: #b9abf5;
+  color: rgba(187, 187, 188, 1.0);
 }
 
 .gochallenge {
   font-size: xx-small;
-  padding: 10rpx 20rpx;
+  padding: 6rpx 20rpx;
   margin-left: 40rpx;
-  background-color: #ec553e;
+  background-color: rgba(254, 108, 79, 1.0);
   border-radius: 30rpx;
 }
 
 .rule {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(114, 92, 224, 1.0);
   height: 50rpx;
   color: #fff;
   border-top-left-radius: 25rpx;
