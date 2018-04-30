@@ -91,6 +91,23 @@
 
 </view>
 
+<!-- 弹出框 -->
+
+<block wx:if='{{ isToastShow === true }}'>
+  <view class='layer'> 
+    <view class='layer-content'>
+      <icon type="clear" color="#eade46" size="25" bindtap="ruleTap"></icon>
+      <view class="layer-title title">挑战规则</view>
+      <view class="rule-text flex" wx:for="{{ ruleList }}" wx:key="index">
+          <view class="rule-index standard">{{ index+1 }}</view>
+          <view class="f1 standard notes-color">{{ item.rule }}</view>
+      </view>
+      <label for="service" class="service standard">如有疑问请联系客服</label>
+      <view class='gocontact' bindtap='goContactTap'>立即联系</view>
+    </view>
+  </view>
+</block> 
+
 <!-- bottom 选项框  -->
 <!-- <view class="bottom-info flex vertical {{ bottomIndex }}" wx:if="{{true}}">
   <view class="link" bindtap="startTap" wx:if="{{!appInfo.hidePayFunc}}">

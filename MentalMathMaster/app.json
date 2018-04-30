@@ -22,9 +22,9 @@
   },
   "tabBar":{
     "color": "#ccc",
-    "selectedColor": "#8F7BF3",
+    "selectedColor": "rgb(254, 254, 255)",
     "borderStyle": "white",
-    "backgroundColor": "#eade46",
+    "backgroundColor": "rgb(143, 123, 242)",
     "list":[{
       "pagePath": "pages/index/index",
       "iconPath": "pages/resources/images/challenge-normal.png",

@@ -41,6 +41,13 @@ Page({
     challengeColor: 'bottomColorSelect',
     bottomCenterSelect: '../resources/images/center-normal.png',
     centerColor: 'bottomColorunSelect',
+    isToastShow: false,
+    ruleList:[
+      {index:'0', rule:'每天自动获取一次挑战机会，每天最多分享到10个不同的群，免费获得10次挑战机会。'},
+      { index: '0', rule: '挑战过程中答题时间会随着挑战践行而缩短。'},
+      { index: '0', rule: '在规定的时间内，连续判断对50道简单的数字加减题即为挑战成功。' },
+      { index: '0', rule: '挑战成功后，您可以获取选娃娃（如挑选的娃娃取货择随机发货），填写领取信息，客服会在10个工作日内发货，娃娃包邮。' },
+    ]
   },
   //事件处理函数
   bindViewTap: function() {
@@ -155,6 +162,12 @@ Page({
     })
   },
   ruleTap: function() {
-    console.log("rule tap !");
+    this.setData({
+      isToastShow: !this.data.isToastShow
+    });
+  },
+  //联系客服
+  goContactTap: function () {
+    console.log('点击联系客服！')
   }
 })
