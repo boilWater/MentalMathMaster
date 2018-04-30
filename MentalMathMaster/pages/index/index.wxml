@@ -44,7 +44,8 @@
             <image src='{{ item.url }}'></image>
           </view>
           <view class='listname'>{{ item.name }}</view> 
-          <view class='listnumber'>获得娃娃{{ item.number }}</view>  
+          <view class='listnumber'>获得娃娃{{ item.number }}</view>
+          <view class='line'></view>  
         </view>
 
       </view>
@@ -61,6 +62,7 @@
           </view>
           <view class='listname'>{{ item.name }}</view> 
           <view class='listnumber'>挑战{{ item.number }}次</view>  
+          
         </view>
 
       </view>
@@ -94,8 +96,8 @@
 <!-- 弹出框 -->
 
 <block wx:if='{{ isToastShow === true }}'>
-  <view class='layer'> 
-    <view class='layer-content'>
+  <view class='layer' bindtap='ruleTap'> 
+    <view class='layer-content' catchtap="noFun">
       <icon type="clear" color="#eade46" size="25" bindtap="ruleTap"></icon>
       <view class="layer-title title">挑战规则</view>
       <view class="rule-text flex" wx:for="{{ ruleList }}" wx:key="index">

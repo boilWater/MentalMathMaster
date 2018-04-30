@@ -93,9 +93,9 @@ Page({
   },
   inviteTap: function(e) {
     //邀请好友
-    wx.navigateTo({
-      url: '../customspass/customspass',
-    })
+    // wx.navigateTo({
+    //   // url: '../customspass/customspass',
+    // })
   },
   // 选取荣耀帮
   honourTap: function(e) {
@@ -165,6 +165,10 @@ Page({
     this.setData({
       isToastShow: !this.data.isToastShow
     });
+  },
+  // 空的方法，阻止事件冒泡
+  noFun() {
+    console.log('阻止事件冒泡');
   },
   //联系客服
   goContactTap: function () {

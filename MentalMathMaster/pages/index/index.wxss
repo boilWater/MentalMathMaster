@@ -75,11 +75,10 @@ page {
 
 .startchallenge {
   /* position: absolute; */
-  padding-top: 16rpx; 
   margin-left: 100rpx;
   text-align: center;
   width: 540rpx;
-  height: 62rpx;
+  line-height: 78rpx;
   border-radius: 45rpx;
   color: rgb(121, 51, 212);
   background-color: #6d41e2;
@@ -87,17 +86,16 @@ page {
   border-width: 8rpx;
   border-color:  rgb(121, 51, 212);
   border-style: solid;
-  background: linear-gradient(to bottom, #eff125, #eeba28); 
+  background: linear-gradient(to bottom, #eff125, #eeba28);  
   /* transform: translate(50%, 50%); */
 }
 
-.invitefriends {
-  padding-top: 16rpx; 
+.invitefriends { 
   margin-left: 100rpx;
   text-align: center;
-  width: 540rpx;
-  height: 58rpx;
-  padding: 13rpx;
+  width: 560rpx;
+  line-height: 78rpx;
+  /* padding: 13rpx; */
   margin-right: 150rpx;
   margin-bottom: 30rpx;
   border-radius: 38rpx;
@@ -125,9 +123,9 @@ page {
 .honour {
   width: 32%;
   text-align: center;
-  height: 56rpx;
+  line-height: 66rpx;
   font-size: 14px;
-  padding-top: 6rpx;
+  /* padding-top: 6rpx; */
   border-color: #7b61ef;
   border-left-width: 1rpx;
   border-top-width: 1rpx;
@@ -140,9 +138,9 @@ page {
 
 .perseverance {
   width: 34%;
-  height: 56rpx;
+  line-height: 66rpx;
   font-size: 14px;
-  padding-top: 6rpx;
+  /* padding-top: 6rpx; */
   text-align: center;
   border-color: #7b61ef;
   border-width: 1rpx; 
@@ -152,9 +150,9 @@ page {
 
 .prize {
   width: 32%;
-  height: 56rpx;
+  line-height: 66rpx;
   font-size: 14px;
-  padding-top: 6rpx;
+  /* padding-top: 6rpx; */
   text-align: center;
   border-color: #7b61ef;
   border-right-width: 1rpx;
@@ -187,12 +185,16 @@ page {
   margin-bottom: 280rpx;
 }  */
 
+.list-item {
+  height: 101rpx;
+}
+
 .list {
   height: 100rpx;
   margin-left: 25rpx;
   margin-right: 25rpx;
   background-color: rgb(249, 245, 205);
-  /* margin-bottom: 2rpx; */
+  /* margin-bottom: 2rpx;  */
 }
 
 .list text {
@@ -238,6 +240,14 @@ page {
   color: #aaa;
   /* background-color: #fff;  */
 }
+
+/* .line {
+  margin-top: 0rpx;
+  width: 80%;
+  margin: 10%;
+  height: 1rpx;
+  background-color: #ccc;
+} */
 
 /* 娃娃奖品  */
 
@@ -287,7 +297,7 @@ page {
 }
 
 .giftname {
-  height: 70rpx;
+  height: 73rpx;
   padding-top: 10rpx;
   text-align: center;
   background-color: #fff;
@@ -351,10 +361,9 @@ page {
 .layer-content .gocontact {
   margin: 30rpx 25% 0rpx 25%;
   width: 50%;
-  height: 60rpx;
-  padding-top: 14rpx;
+  line-height: 66rpx;
   text-align: center;
-  font-size: 13px;
+  font-size: 14px;
   border-radius: 33rpx;
   color: #fff;
   background-color: rgb(143, 123, 242);
