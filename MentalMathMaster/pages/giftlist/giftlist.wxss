@@ -30,7 +30,7 @@
   /* background-color: #fff; */
   border-radius: 30rpx;
   text-align: center;
-  color: rgba(253, 252, 252, 0.5);
+  
 }
 
 .record {
@@ -42,15 +42,16 @@
   background-color: #7b60ef; 
   border-radius: 30rpx;
   text-align: center;
-  color: rgba(253, 252, 252, 0.5);
 }
 
 .selectcolor {
   background-color: rgba(253, 252, 252, 1);
+  color: rgbargba(253, 252, 252, 0.5);
 }
 
 .unselectcolor {
   background-color: rgba(143, 123, 242, 1);
+  color: rgba(253, 252, 252, 0.5);
 }
 
 /* 礼物列表的 item 布局 */
@@ -160,7 +161,7 @@
 /* 有领取物品的详细界面  */
 
 .list {
-  margin: 20rpx 15rpx 35rpx 15rpx;
+  margin: 20rpx 35rpx 35rpx 35rpx;
   height: 920rpx;
   /* background-color: #fff; */
   box-shadow: 5rpx 5rpx 3rpx #5e41dd;

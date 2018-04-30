@@ -21,11 +21,11 @@
 
   <view class='yellowbottom flex vertical' >
      <view class='correct' bindtap='correctTap'>
-       <image src='../resources/images/bg.png' mode='scaleToFill'></image>  
+       <image src='../resources/images/right.png' mode='scaleToFill'></image>  
     </view>
 
     <view class='wrong' bindtap='wrongTap'>
-      <image src='../resources/images/bg.png' mode='scaleToFill'></image>  
+      <image src='../resources/images/wrong.png' mode='scaleToFill'></image>  
     </view> 
   </view>
 

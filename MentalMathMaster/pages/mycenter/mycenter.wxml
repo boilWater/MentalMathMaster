@@ -1,5 +1,6 @@
 <!-- 个人中心  -->
 
+
 <view class='container'>
 
   <view class='bluetop'>
@@ -114,5 +115,20 @@
 <!-- 规则  -->
 <view class='rule flex vertical' bindtap='ruleTap'>
   <text class="iconfont icon-i-info"></text>
-  <text class='label'>挑战规则</text>
+  <text class='label'>投诉</text>
 </view>
+
+<!-- <view class="bottom-info flex vertical {{ bottomIndex }}" >
+  <view class="link" bindtap="startTap" >
+    <view class="icon">
+      <image src= '{{ bottomImageSelect }}'></image>
+    </view>
+    <text class='{{ challengeColor }}'>我要挑战</text>
+  </view>
+  <view class="link" bindtap="goYyCenter">
+    <view class="icon">
+      <image src= '{{ bottomCenterSelect }}'></image>
+    </view>
+    <text class='{{ centerColor }}'>个人中心</text>
+  </view>
+</view> -->

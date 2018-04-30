@@ -8,13 +8,14 @@
     </view>
 
     <view class='challengetext flex vertical'>
-      <view class='wintext'>挑战成功赢娃娃</view>
-      <text class="iconfont icon-i-info" bindtap='ruleTap'></text> 
+      <text class='wintext'>挑战成功赢娃娃</text>
+      <image src='../resources/images/comments.png' bindtap='ruleTap'></image>
+      <!-- <text class="iconfont icon-i-info" ></text>  -->
     </view>
 
     <view class='slogan'>
-      <view class='text-shadow: 12rpx 5prx 4rpx #5d6979'>跑酷加减法</view>
-      <view class='text-shadow: 12rpx 5prx 4rpx #5d6979'>判断力训练营</view>
+      <view class='text-shadow: 12rpx 5prx 4rpx '>跑酷加减法</view>
+      <view class='text-shadow: 12rpx 5prx 4rpx '>判断力训练营</view>
     </view>
 
     <view class='total'>当前共{{total}}次挑战</view>
@@ -87,21 +88,26 @@
     </block>
 
   </view>
-   
-
-  <!-- bottom 选项框  -->
-  <view class="bottom-info" wx:if="{{true}}">
-    <view class="link" bindtap="startTap" wx:if="{{!appInfo.hidePayFunc}}">
-      <view class="icon"><i class="iconfont1 icon-red-packet_icon"></i></view>
-      <text>我要挑战</text>
-    </view>
-    <view class="link" bindtap="goYyCenter">
-      <view class="icon"><i class="iconfont1 icon-goumaijilu"></i></view>
-      <text>个人中心</text>
-    </view>
-  </view>
 
 </view>
+
+<!-- bottom 选项框  -->
+<!-- <view class="bottom-info flex vertical {{ bottomIndex }}" wx:if="{{true}}">
+  <view class="link" bindtap="startTap" wx:if="{{!appInfo.hidePayFunc}}">
+    <view class="icon">
+      <image src= '{{ bottomImageSelect }}'></image>
+    </view>
+    <text class='{{ challengeColor }}'>我要挑战</text>
+  </view>
+  <view class="link" bindtap="goYyCenter">
+    <view class="icon">
+      <image src= '{{ bottomCenterSelect }}'></image>
+    </view>
+    <text class='{{ centerColor }}'>个人中心</text>
+  </view>
+</view> -->
+
+  <!-- 弹出框 layer -->
   
   <!-- 信息展示界面 & 挑战 & 分享 -->
   <!-- <view class='message-show'> -->

@@ -90,15 +90,7 @@ Page({
   /**
    * 点击礼物的列表
    */
-  glistTap: function(e) {
-    // if (!this.data.msgPrompt) {
-    //   console.log('select is false');
-    //   this.setData({
-    //     msgPrompt: !this.data.msgPrompt,
-    //     glistcolor: 'selectcolor',
-    //     recordcolor: 'unselectcolor'
-    //   })
-    // } 
+  glistTap: function(e) { 
     if (this.data.msgPrompt) {
      console.log('select is true');
       this.setData({

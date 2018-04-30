@@ -11,7 +11,7 @@
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#7b61ef",
+    "navigationBarBackgroundColor": "#8F7BF3",
     "navigationBarTitleText": "不找零了+",
     "navigationBarTextStyle": "white",
     "enablePullDownRefresh": true,
@@ -19,5 +19,23 @@
   },
   "networkTimeout": {
     "request": 20000
+  },
+  "tabBar":{
+    "color": "#ccc",
+    "selectedColor": "#8F7BF3",
+    "borderStyle": "white",
+    "backgroundColor": "#eade46",
+    "list":[{
+      "pagePath": "pages/index/index",
+      "iconPath": "pages/resources/images/challenge-normal.png",
+      "selectedIconPath": "pages/resources/images/challenge-select.png",
+      "text": "我要挑战"
+    },
+    {
+      "pagePath": "pages/mycenter/mycenter",
+      "iconPath": "pages/resources/images/center-normal.png",
+      "selectedIconPath": "pages/resources/images/center-select.png",
+      "text": "个人中心"
+    }]
   }
 }

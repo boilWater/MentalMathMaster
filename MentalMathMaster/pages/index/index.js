@@ -36,6 +36,11 @@ Page({
       { url: '../resources/images/u579.png', name: '泰迪熊' },
       { url: '../resources/images/u579.png', name: '泰迪熊' },
     ],
+    bottomIndex: '0',
+    bottomImageSelect:'../resources/images/challenge-select.png',
+    challengeColor: 'bottomColorSelect',
+    bottomCenterSelect: '../resources/images/center-normal.png',
+    centerColor: 'bottomColorunSelect',
   },
   //事件处理函数
   bindViewTap: function() {
@@ -79,16 +84,10 @@ Page({
       hasUserInfo: true
     })
   },
-  startTap: function(e) {
-    //开始挑战
-    wx.navigateTo({
-      url: '../customspass/customspass',
-    })
-  },
   inviteTap: function(e) {
     //邀请好友
     wx.navigateTo({
-      url: '',
+      url: '../customspass/customspass',
     })
   },
   // 选取荣耀帮
@@ -124,15 +123,38 @@ Page({
       });
     }
   },
-  goYyCenter: function(e) {
-    //个人中心
+  startTap: function (e) {
+    if (this.data.bottomIndex != 0) {
+      this.setData({
+        bottomIndex: '0',
+        bottomImageSelect: '../resources/images/challenge-select.png',
+        challengeColor: 'bottomColorSelect',
+        bottomCenterSelect: '../resources/images/center-normal.png',
+        centerColor: 'bottomColorunSelect'
+      });
+    };
+    //开始挑战
     wx.navigateTo({
-      url: '../mycenter/mycenter',
+      url: '../customspass/customspass',
     })
+  },
+  goYyCenter: function(e) {
+    if (this.data.bottomIndex != 1) {
+      this.setData({
+        bottomIndex: '1',
+        bottomImageSelect: '../resources/images/challenge-normal.png',
+        challengeColor: 'bottomColorunSelect',
+        bottomCenterSelect: '../resources/images/center-select.png',
+        centerColor: 'bottomColorSelect'
+      });
+    }
   },
   goReceiveTap: function(e) {
     wx.navigateTo({
       url: '../giftlist/giftlist',
     })
+  },
+  ruleTap: function() {
+    console.log("rule tap !");
   }
 })

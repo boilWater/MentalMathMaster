@@ -20,7 +20,7 @@ page {
   height: 180rpx;
   /* margin-top: 10rpx; */
   text-align: center; 
-  /* background-color: #fae45e; */
+   /* background-color: #fae45e;  */
 }
 
 .challenge image {
@@ -30,23 +30,31 @@ page {
 
 .challengetext {
   position: absolute;
-  width: 100%;
+  width: 100%; 
+  /* width: 66%; */
   top: 75rpx;
-  text-align: center; 
-  /* background-color: #fff;   */
+  /* text-align: right; */
+   text-align: center;     
 }
 
 .challengetext .wintext {
-  width: 100%;
+  width: 64%;
   font-size: smaller;
   color: rgba(353, 252, 252, 1);
-  text-align: center;
+  text-align: right;
+  /* background-color: #ccc;   */
+}
+
+.challengetext image {
+  margin-left: 8rpx;
+  width: 46rpx;
+  height: 46rpx;
 }
 
 .slogan {
   text-align: center;
   font-size: x-large;
-  color: rgba(353, 252, 252, 1);
+  color: rgba(253, 252, 252, 1);
   font-weight: bold;
   margin-bottom: 30rpx;
 }
@@ -99,7 +107,7 @@ page {
   width: 100%;
   /* height: 900rpx; */
   background-color: #eade46;
-  margin-bottom: 180rpx;
+  margin-bottom: 60rpx;
 }
 
 .ranklist {
@@ -243,8 +251,8 @@ page {
   position: absolute;
   right: 52rpx;
   width: 200rpx;
-  height: 60rpx;
-  padding-top: 7rpx;
+  height: 52rpx;
+  padding-top: 9rpx;
   font-size: 14px;
   text-align: center;
   border-radius: 42rpx;
@@ -277,6 +285,8 @@ page {
   text-align: center;
   background-color: #fff;
 }
+
+/* 弹出层 layer  */
 
 /* .message-show {
   position: absolute;
@@ -388,7 +398,7 @@ page {
 
 
 /* 底部导航栏布局 */
-.bottom-info{
+/* .bottom-info{
   margin-top: 420rpx;
   text-align: center;
   color: #ccc;
@@ -398,11 +408,11 @@ page {
   right: 0;
   display: flex;
   flex-direction: row;
-  background-color: #fae45e;
+  background-color: #eade46;
   padding: 18rpx 0;
   justify-content: space-around;
   z-index: 1000;
-  border-top-color: #5d6979;
+  border-top-color: #eade46;
   border-top-width: 2rpx;
 }
 
@@ -410,31 +420,43 @@ page {
   width: 50%;
   color: #5d6979;
   text-align: center;
-}
+} */
 
-.bottom-info .link text{
+/* .bottom-info .link text{
   font-size: 30rpx;
-  display: block;
-  color: #6344ce;
-}
+  display: block; */
+  /* color: #6344ce; */
+/* } */
 
-.bottom-info .link i{
+/* .bottom-info .link i{
   font-size: 42rpx;
   color: #fff;
 }
 
 .bottom-info .link .icon{
-  display: inline-block;
+  display: inline-block; */
   /* border: 1rpx solid #5d6979; */
-  width: 50rpx;
-  height: 50rpx;
+  /* width: 65rpx;
+  height: 65rpx;
   text-align: center;
-  line-height: 50rpx;
+  line-height: 50rpx; */
   /* border-radius: 50%; */
-  margin-bottom: 5rpx;
+  /* margin-bottom: 5rpx;
+} */
+
+/* .bottom-info .link .icon image {
+  width: 65rpx;
+  height: 65rpx;
 }
 
 .bottom-info .link .icon i{
   border: none;
 }
 
+.bottomColorSelect {
+  color: #8F7BF3;
+}
+
+.bottomColorunSelect {
+  color: #ccc;
+} */

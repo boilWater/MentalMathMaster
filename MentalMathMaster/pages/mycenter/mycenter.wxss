@@ -1,8 +1,7 @@
 /* pages/mycenter/mycenter.wxss */
 
-page{
-background-color:#fff;
-height:100%;
+page {
+  background-color: #eade46;
 }
 
 .bluetop {
@@ -174,7 +173,7 @@ height:100%;
   top: 580rpx;
   width: 100%;
   height: 500rpx;
-  /* background-color: #fff; */
+  background-color: #eade46; 
 }
 
 .contactcustomer {
@@ -260,6 +259,73 @@ height:100%;
    /* 设置外边距 right 侧内容，距离是 10 rpx */
     margin-right: 10rpx;
 }
+
+/*  */
+
+/* 底部导航栏布局 */
+/* .bottom-info{
+  margin-top: 420rpx;
+  text-align: center;
+  color: #ccc;
+  position: fixed; 
+  bottom: 0rpx;
+  left: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #eade46;
+  padding: 18rpx 0;
+  justify-content: space-around;
+  z-index: 1000;
+  border-top-color: #eade46;
+  border-top-width: 2rpx;
+} */
+
+/* .bottom-info .link{
+  width: 50%;
+  color: #5d6979;
+  text-align: center;
+}
+
+.bottom-info .link text{
+  font-size: 30rpx;
+  display: block; */
+  /* color: #6344ce; */
+/* } */
+
+/* .bottom-info .link i{
+  font-size: 42rpx;
+  color: #fff;
+} */
+
+/* .bottom-info .link .icon{
+  display: inline-block; */
+  /* border: 1rpx solid #5d6979; */
+  /* width: 65rpx;
+  height: 65rpx;
+  text-align: center;
+  line-height: 50rpx; */
+  /* border-radius: 50%; */
+  /* margin-bottom: 5rpx;
+} */
+
+/* .bottom-info .link .icon image {
+  width: 65rpx;
+  height: 65rpx;
+}
+
+.bottom-info .link .icon i{
+  border: none;
+}
+
+.bottomColorSelect {
+  color: #8F7BF3;
+}
+
+.bottomColorunSelect {
+  color: #ccc;
+} */
+
 
 /* 领取说明  */
 /* .timedetailsinfo { */

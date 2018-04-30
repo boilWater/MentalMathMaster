@@ -6,7 +6,12 @@ Page({
    */
   data: {
     nameinfo:'Jack Bai',
-    numberinfo:'15'
+    numberinfo:'15',
+    bottomIndex: '1',
+    bottomImageSelect: '../resources/images/challenge-normal.png',
+    challengeColor: 'bottomColorunSelect',
+    bottomCenterSelect: '../resources/images/center-select.png',
+    centerColor: 'bottomColorSelect',
   },
 
   /**
@@ -88,8 +93,37 @@ Page({
   gochallengeTap: function(e) {
 
   },
+  startTap: function (e) {
+    if (this.data.bottomIndex != 0) {
+      this.setData({
+        bottomIndex: '0',
+        bottomImageSelect: '../resources/images/challenge-select.png',
+        challengeColor: 'bottomColorSelect',
+        bottomCenterSelect: '../resources/images/center-normal.png',
+        centerColor: 'bottomColorunSelect'
+      });
+    };
+    //开始挑战
+    wx.switchTab({
+      url: '../index/index',
+    })
+  },
+  goYyCenter: function (e) {
+    if (this.data.bottomIndex != 1) {
+      this.setData({
+        bottomIndex: '1',
+        bottomImageSelect: '../resources/images/challenge-normal.png',
+        challengeColor: 'bottomColorunSelect',
+        bottomCenterSelect: '../resources/images/center-select.png',
+        centerColor: 'bottomColorSelect'
+      });
+    };
+  },
+  // 挑战规则 按钮
   ruleTap: function(e) {
-
+    wx.navigateTo({
+      url: '../report/report',
+    })
   },
   goGiftTap: function(e) {
     wx:wx.navigateTo({
@@ -99,5 +133,4 @@ Page({
       complete: function(res) {},
     })
   }
-  
 })
