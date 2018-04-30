@@ -53,13 +53,13 @@
           <image src='{{ item.url }}'></image>
         </view>
 
-        <view class='giftname mintext'>奖品名称： {{ item.giftname }}</view>
-        <view class='applytime mintext'>申请时间： {{ item.applytime }}</view>
-        <view class='sendtime mintext'>发货时间： {{ item.sendtime }}</view>
-        <view class='senddetail mintext'>快递信息： {{ item.senddetail }}</view>
-        <view class='receivor mintext'>收件人： {{ item.receivor }}</view>
-        <view class='telephone mintext'>联系电话： {{ item.telephone }}</view>
-        <view class='address mintext'>收货地址： {{ item.address }}</view>
+        <view class='giftname mintextblack'>奖品名称： {{ item.giftname }}</view>
+        <view class='applytime mintextblack'>申请时间： {{ item.applytime }}</view>
+        <view class='sendtime mintextblack'>发货时间： {{ item.sendtime }}</view>
+        <view class='senddetail mintextblack'>快递信息： {{ item.senddetail }}</view>
+        <view class='receivor mintextblack'>收件人： {{ item.receivor }}</view>
+        <view class='telephone mintextblack'>联系电话： {{ item.telephone }}</view>
+        <view class='address mintextblack'>收货地址： {{ item.address }}</view>
       
         <view class='goservices' bindtap='goServicesTap'>如有错误请点击此处联系客服</view>
         
